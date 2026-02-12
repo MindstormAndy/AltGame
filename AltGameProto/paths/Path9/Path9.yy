@@ -1,0 +1,21 @@
+{
+  "$GMPath":"",
+  "%Name":"Path9",
+  "closed":true,
+  "kind":0,
+  "name":"Path9",
+  "parent":{
+    "name":"AltGameProto",
+    "path":"AltGameProto.yyp",
+  },
+  "points":[
+    {"speed":100.0,"x":192.0,"y":544.0,},
+    {"speed":100.0,"x":384.0,"y":544.0,},
+    {"speed":100.0,"x":384.0,"y":544.0,},
+    {"speed":100.0,"x":384.0,"y":544.0,},
+    {"speed":100.0,"x":192.0,"y":544.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
