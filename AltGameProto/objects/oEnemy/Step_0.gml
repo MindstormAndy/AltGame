@@ -26,16 +26,33 @@ if (!global.found)
 	if (instance_exists(oPlayer))
 	{
 	
-		canseeplayer = (collision_rectangle(x, y + 8, x + sightrange * xdir, y - 8, oPlayer, false, true)  ||
-					    collision_rectangle(x + 8, y, x - 8, y + sightrange * ydir, oPlayer, false, true)) &&
+		canseeplayer = (collision_rectangle(x, y + sightwidth, x + sightrange * xdir, y - sightwidth, oPlayer, false, true)  ||
+					    collision_rectangle(x + sightwidth, y, x - sightwidth, y + sightrange * ydir, oPlayer, false, true)) &&
 						!collision_line(x, y, oPlayer.x, oPlayer.y, oWall, false, true);
+		touchingplayer = collision_point(x, y, oPlayer, false, true)
 	}
 
 
-	if (canseeplayer && !foundplayer)
+	if (canseeplayer)
+	{
+		sprite_index = sEnemyAlert
+		tempdelay++;
+	}
+	else
+	{
+		sprite_index = sEnemy
+		tempdelay = 0;
+	}
+	if (( tempdelay == sightdelay && canseeplayer || touchingplayer ) && !foundplayer)
 	{
 		foundplayer = true;
 		global.found = true;
+		if (global.social_battery >= socialcost) global.social_battery -= socialcost;
+		else global.social_battery = 0;
+	}
+	if (foundplayer)
+	{
+		sprite_index = sEnemyInteracted
 	}
 }
 else 
