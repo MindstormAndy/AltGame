@@ -24,7 +24,7 @@
     {"name":"sEnemyBig","order":9,"path":"sprites/sEnemyBig/sEnemyBig.yy",},
     {"name":"sEnemyInteracted","order":26,"path":"sprites/sEnemyInteracted/sEnemyInteracted.yy",},
     {"name":"sGoal","order":23,"path":"sprites/sGoal/sGoal.yy",},
-    {"name":"sPlayer","order":2,"path":"sprites/sPlayer/sPlayer.yy",},
+    {"name":"sPlayer","order":27,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"sQuizBG","order":21,"path":"sprites/sQuizBG/sQuizBG.yy",},
     {"name":"sWall","order":4,"path":"sprites/sWall/sWall.yy",},
   ],
