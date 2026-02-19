@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"UpdateBattery",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"UpdateBattery",
+  "parent":{
+    "name":"AltGameProto",
+    "path":"AltGameProto.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

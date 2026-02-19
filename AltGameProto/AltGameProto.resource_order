@@ -18,6 +18,7 @@
     {"name":"Path8","order":19,"path":"paths/Path8/Path8.yy",},
     {"name":"Path9","order":20,"path":"paths/Path9/Path9.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
+    {"name":"UpdateBattery","order":27,"path":"scripts/UpdateBattery/UpdateBattery.yy",},
     {"name":"sbutton","order":11,"path":"sprites/sbutton/sbutton.yy",},
     {"name":"sEnemy","order":6,"path":"sprites/sEnemy/sEnemy.yy",},
     {"name":"sEnemyAlert","order":25,"path":"sprites/sEnemyAlert/sEnemyAlert.yy",},

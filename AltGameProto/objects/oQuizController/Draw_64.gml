@@ -1,13 +1,54 @@
+
 if (global.found)
 {
-	draw_rectangle_colour(0, 0, 1280, 720, c_black, c_black, c_black, c_black, false);
-	draw_sprite_stretched(sEnemyBig, 0, 200, 100, 250, 250);
-	draw_rectangle_colour(button1x, button1y, button1x + button_width, button1y + button_height, c_orange, c_orange, c_orange, c_orange, false);
-	draw_rectangle_colour(button2x, button2y, button2x + button_width, button2y + button_height, c_orange, c_orange, c_orange, c_orange, false);
-	draw_rectangle_colour(button3x, button3y, button3x + button_width, button3y + button_height, c_orange, c_orange, c_orange, c_orange, false);
-	draw_rectangle_colour(button4x, button4y, button4x + button_width, button4y + button_height, c_orange, c_orange, c_orange, c_orange, false);
-	draw_rectangle_colour(32, 656, 1248, 698, c_gray, c_gray, c_gray, c_gray, false);
-	draw_rectangle_colour(32, 656, 32 + 1216 * global.social_battery / 100, 698, c_red, c_red, c_red, c_red, false);
+	if (global.shuffle_buttons)
+	{
+		prompt = file_grid[# 1, global.enemy_index]
+		answer_array[0] = 
+		{
+			text : file_grid[# 2, global.enemy_index],
+			value : prompt_values.great
+		};
+		answer_array[1] = 
+		{
+			text : file_grid[# 3, global.enemy_index],
+			value : prompt_values.ok
+		};
+		answer_array[2] = 
+		{
+			text : file_grid[# 4, global.enemy_index],
+			value : prompt_values.bad
+		};
+		answer_array[3] = 
+		{
+			text : file_grid[# 5, global.enemy_index],
+			value : prompt_values.garbage
+		};
+		shuffled_array = array_shuffle(answer_array)
+		global.shuffle_buttons = false;
+	}
+	
+	text_scale = 1.2*gui_scale;
+	
+	draw_rectangle_colour(0, 0, 1280*gui_scale, 720*gui_scale, c_black, c_black, c_black, c_black, false);
+	draw_sprite_stretched(sEnemyBig, 0, 175*gui_scale, 50*gui_scale, 250*gui_scale, 250*gui_scale);
+	draw_rectangle_colour(prompt_x*gui_scale, prompt_y*gui_scale, prompt_x*gui_scale + prompt_width*gui_scale, prompt_y*gui_scale + prompt_height*gui_scale, c_gray, c_gray, c_gray, c_gray, false);
+	draw_rectangle_colour(button1x*gui_scale, button1y*gui_scale, button1x*gui_scale + button_width*gui_scale, button1y*gui_scale + button_height*gui_scale, c_orange, c_orange, c_orange, c_orange, false);
+	draw_rectangle_colour(button2x*gui_scale, button2y*gui_scale, button2x*gui_scale + button_width*gui_scale, button2y*gui_scale + button_height*gui_scale, c_orange, c_orange, c_orange, c_orange, false);
+	draw_rectangle_colour(button3x*gui_scale, button3y*gui_scale, button3x*gui_scale + button_width*gui_scale, button3y*gui_scale + button_height*gui_scale, c_orange, c_orange, c_orange, c_orange, false);
+	draw_rectangle_colour(button4x*gui_scale, button4y*gui_scale, button4x*gui_scale + button_width*gui_scale, button4y*gui_scale + button_height*gui_scale, c_orange, c_orange, c_orange, c_orange, false);
+	draw_rectangle_colour(32*gui_scale, 656*gui_scale, 1248*gui_scale, 698*gui_scale, c_gray, c_gray, c_gray, c_gray, false);
+	draw_rectangle_colour(32*gui_scale, 656*gui_scale, 32*gui_scale + 1216*gui_scale * global.social_battery / 100, 698*gui_scale, c_red, c_red, c_red, c_red, false);
 
-	draw_text_ext( button1x + 10, button1y + 1, plcholder_text, 20, button_width - 10);
+	draw_text_ext_transformed(button1x*gui_scale + button_width*gui_scale / 2, button1y*gui_scale + button_height*gui_scale / 2, shuffled_array[0].text, 20, (button_width*gui_scale - 10)/text_scale, text_scale, text_scale, 0);
+	draw_text_ext_transformed(button2x*gui_scale + button_width*gui_scale / 2, button2y*gui_scale + button_height*gui_scale / 2, shuffled_array[1].text, 20, (button_width*gui_scale - 10)/text_scale, text_scale, text_scale, 0);
+	draw_text_ext_transformed(button3x*gui_scale + button_width*gui_scale / 2, button3y*gui_scale + button_height*gui_scale / 2, shuffled_array[2].text, 20, (button_width*gui_scale - 10)/text_scale, text_scale, text_scale, 0);
+	draw_text_ext_transformed(button4x*gui_scale + button_width*gui_scale / 2, button4y*gui_scale + button_height*gui_scale / 2, shuffled_array[3].text, 20, (button_width*gui_scale - 10)/text_scale, text_scale, text_scale, 0);
+
+	
 }
+
+draw_text(32, 32, mouse_x)
+draw_text(64, 32, mouse_y)
+draw_text(96, 32, button1x)
+draw_text(128, 32, button1y)

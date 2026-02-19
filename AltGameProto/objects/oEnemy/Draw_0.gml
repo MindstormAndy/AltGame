@@ -7,3 +7,4 @@ else if (ydir != 0)
 {
 	draw_rectangle(x + sightwidth, y, x - sightwidth, y + sightrange * ydir, true);
 }
+

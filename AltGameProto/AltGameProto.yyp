@@ -13,7 +13,9 @@
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"TestPrompts.csv","CopyToMask":-1,"filePath":"datafiles","name":"TestPrompts.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -37,6 +39,7 @@
     {"id":{"name":"Path9","path":"paths/Path9/Path9.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"UpdateBattery","path":"scripts/UpdateBattery/UpdateBattery.yy",},},
     {"id":{"name":"sbutton","path":"sprites/sbutton/sbutton.yy",},},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"sEnemyAlert","path":"sprites/sEnemyAlert/sEnemyAlert.yy",},},

@@ -33,6 +33,7 @@
         "GMPath",
       ],"listItems":[],"multiselect":false,"name":"my_path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"sightrange","filters":[],"listItems":[],"multiselect":false,"name":"sightrange","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"150","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"enemy_index","filters":[],"listItems":[],"multiselect":false,"name":"enemy_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
