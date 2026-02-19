@@ -28,7 +28,8 @@ if (global.found)
 		global.shuffle_buttons = false;
 	}
 	
-	text_scale = 1.2*gui_scale;
+	prompt_font_size_gui = prompt_font_size*gui_scale;
+	answer_font_size_gui = answer_font_size*gui_scale;
 	
 	draw_rectangle_colour(0, 0, 1280*gui_scale, 720*gui_scale, c_black, c_black, c_black, c_black, false);
 	draw_sprite_stretched(sEnemyBig, 0, 175*gui_scale, 50*gui_scale, 250*gui_scale, 250*gui_scale);
@@ -40,15 +41,10 @@ if (global.found)
 	draw_rectangle_colour(32*gui_scale, 656*gui_scale, 1248*gui_scale, 698*gui_scale, c_gray, c_gray, c_gray, c_gray, false);
 	draw_rectangle_colour(32*gui_scale, 656*gui_scale, 32*gui_scale + 1216*gui_scale * global.social_battery / 100, 698*gui_scale, c_red, c_red, c_red, c_red, false);
 
-	draw_text_ext_transformed(button1x*gui_scale + button_width*gui_scale / 2, button1y*gui_scale + button_height*gui_scale / 2, shuffled_array[0].text, 20, (button_width*gui_scale - 10)/text_scale, text_scale, text_scale, 0);
-	draw_text_ext_transformed(button2x*gui_scale + button_width*gui_scale / 2, button2y*gui_scale + button_height*gui_scale / 2, shuffled_array[1].text, 20, (button_width*gui_scale - 10)/text_scale, text_scale, text_scale, 0);
-	draw_text_ext_transformed(button3x*gui_scale + button_width*gui_scale / 2, button3y*gui_scale + button_height*gui_scale / 2, shuffled_array[2].text, 20, (button_width*gui_scale - 10)/text_scale, text_scale, text_scale, 0);
-	draw_text_ext_transformed(button4x*gui_scale + button_width*gui_scale / 2, button4y*gui_scale + button_height*gui_scale / 2, shuffled_array[3].text, 20, (button_width*gui_scale - 10)/text_scale, text_scale, text_scale, 0);
-
+	draw_text_ext_transformed(button1x*gui_scale + button_width*gui_scale / 2, button1y*gui_scale + button_height*gui_scale / 2, shuffled_array[0].text, 20, (button_width*gui_scale - 10)/answer_font_size_gui, answer_font_size_gui, answer_font_size_gui, 0);
+	draw_text_ext_transformed(button2x*gui_scale + button_width*gui_scale / 2, button2y*gui_scale + button_height*gui_scale / 2, shuffled_array[1].text, 20, (button_width*gui_scale - 10)/answer_font_size_gui, answer_font_size_gui, answer_font_size_gui, 0);
+	draw_text_ext_transformed(button3x*gui_scale + button_width*gui_scale / 2, button3y*gui_scale + button_height*gui_scale / 2, shuffled_array[2].text, 20, (button_width*gui_scale - 10)/answer_font_size_gui, answer_font_size_gui, answer_font_size_gui, 0);
+	draw_text_ext_transformed(button4x*gui_scale + button_width*gui_scale / 2, button4y*gui_scale + button_height*gui_scale / 2, shuffled_array[3].text, 20, (button_width*gui_scale - 10)/answer_font_size_gui, answer_font_size_gui, answer_font_size_gui, 0);
+	draw_text_ext_transformed(prompt_x*gui_scale + prompt_width*gui_scale / 2, prompt_y*gui_scale + prompt_height*gui_scale / 2, prompt, 20, (prompt_width*gui_scale - 10)/prompt_font_size_gui, prompt_font_size_gui, prompt_font_size_gui, 0);
 	
 }
-
-draw_text(32, 32, mouse_x)
-draw_text(64, 32, mouse_y)
-draw_text(96, 32, button1x)
-draw_text(128, 32, button1y)

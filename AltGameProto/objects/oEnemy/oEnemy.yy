@@ -34,6 +34,9 @@
       ],"listItems":[],"multiselect":false,"name":"my_path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"sightrange","filters":[],"listItems":[],"multiselect":false,"name":"sightrange","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"150","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"enemy_index","filters":[],"listItems":[],"multiselect":false,"name":"enemy_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"sprite","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sEnemy","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
