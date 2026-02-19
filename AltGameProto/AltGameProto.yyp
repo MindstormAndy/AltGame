@@ -19,7 +19,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"AltGameProto",
   "resources":[
@@ -42,6 +42,8 @@
     {"id":{"name":"UpdateBattery","path":"scripts/UpdateBattery/UpdateBattery.yy",},},
     {"id":{"name":"sbutton","path":"sprites/sbutton/sbutton.yy",},},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
+    {"id":{"name":"sEnemy02","path":"sprites/sEnemy02/sEnemy02.yy",},},
+    {"id":{"name":"sEnemy02Big","path":"sprites/sEnemy02Big/sEnemy02Big.yy",},},
     {"id":{"name":"sEnemyAlert","path":"sprites/sEnemyAlert/sEnemyAlert.yy",},},
     {"id":{"name":"sEnemyBig","path":"sprites/sEnemyBig/sEnemyBig.yy",},},
     {"id":{"name":"sEnemyInteracted","path":"sprites/sEnemyInteracted/sEnemyInteracted.yy",},},

@@ -21,6 +21,8 @@
     {"name":"UpdateBattery","order":27,"path":"scripts/UpdateBattery/UpdateBattery.yy",},
     {"name":"sbutton","order":11,"path":"sprites/sbutton/sbutton.yy",},
     {"name":"sEnemy","order":6,"path":"sprites/sEnemy/sEnemy.yy",},
+    {"name":"sEnemy02","order":28,"path":"sprites/sEnemy02/sEnemy02.yy",},
+    {"name":"sEnemy02Big","order":29,"path":"sprites/sEnemy02Big/sEnemy02Big.yy",},
     {"name":"sEnemyAlert","order":25,"path":"sprites/sEnemyAlert/sEnemyAlert.yy",},
     {"name":"sEnemyBig","order":9,"path":"sprites/sEnemyBig/sEnemyBig.yy",},
     {"name":"sEnemyInteracted","order":26,"path":"sprites/sEnemyInteracted/sEnemyInteracted.yy",},
