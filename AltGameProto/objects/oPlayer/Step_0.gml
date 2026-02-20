@@ -28,6 +28,20 @@ _inputLevel = clamp(_inputLevel, 0, 1);
 _spd = moveSpd * _inputLevel;
 
 
+//player sprite direction
+if _horizKey = 0 or _vertKey = 0 {
+	if _vertKey > 0 {
+		sprite_index = sPlayer;
+	} else if _vertKey < 0 {
+		sprite_index = sPlayerBack;
+	} else if _horizKey > 0 {
+		sprite_index = sPlayerRight;
+	} else if _horizKey < 0 {
+		sprite_index = sPlayerLeft;
+	}
+}
+
+
 
 xspd = lengthdir_x(_spd, moveDir);
 yspd = lengthdir_y(_spd, moveDir);
