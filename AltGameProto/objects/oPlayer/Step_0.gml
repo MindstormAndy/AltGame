@@ -33,16 +33,22 @@ if _horizKey = 0 or _vertKey = 0 {
 	if _vertKey > 0 {
 		sprite_index = sPlayerWalkFront;
 	} else if _vertKey < 0 {
-		sprite_index = sPlayerBack;
+		sprite_index = sPlayerWalkBack;
 	} else if _horizKey > 0 {
-		sprite_index = sPlayerRight;
+		sprite_index = sPlayerWalkRight;
 	} else if _horizKey < 0 {
-		sprite_index = sPlayerLeft;
+		sprite_index = sPlayerWalkLeft;
 	}
 
 	else {
 		if sprite_index == sPlayerWalkFront {
-			sprite_index = sPlayerFront;
+			sprite_index = sPlayerFront; 
+		} else if sprite_index = sPlayerWalkBack {
+			sprite_index = sPlayerBack;
+		} else if sprite_index == sPlayerWalkRight {
+			sprite_index = sPlayerRight;
+		} else if sprite_index == sPlayerWalkLeft {
+			sprite_index = sPlayerLeft;
 		}
 	}
 }
