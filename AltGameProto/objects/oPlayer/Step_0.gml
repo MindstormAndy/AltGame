@@ -31,7 +31,7 @@ _spd = moveSpd * _inputLevel;
 //player sprite direction
 if _horizKey = 0 or _vertKey = 0 {
 	if _vertKey > 0 {
-		sprite_index = sPlayer;
+		sprite_index = sPlayerWalkFront;
 	} else if _vertKey < 0 {
 		sprite_index = sPlayerBack;
 	} else if _horizKey > 0 {
@@ -39,8 +39,13 @@ if _horizKey = 0 or _vertKey = 0 {
 	} else if _horizKey < 0 {
 		sprite_index = sPlayerLeft;
 	}
-}
 
+	else {
+		if sprite_index == sPlayerWalkFront {
+			sprite_index = sPlayerFront;
+		}
+	}
+}
 
 
 xspd = lengthdir_x(_spd, moveDir);
