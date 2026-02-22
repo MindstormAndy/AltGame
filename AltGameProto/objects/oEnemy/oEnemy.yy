@@ -34,17 +34,24 @@
       ],"listItems":[],"multiselect":false,"name":"my_path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"sightrange","filters":[],"listItems":[],"multiselect":false,"name":"sightrange","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"150","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"enemy_index","filters":[],"listItems":[],"multiselect":false,"name":"enemy_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"sprite","filters":[
+    {"$GMObjectProperty":"v2","%Name":"spriteFront","filters":[
         "GMSprite",
-      ],"listItems":[],"multiselect":false,"name":"sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sEnemy","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"spriteFront","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sEnemy01Front","path":"sprites/sEnemy01Front/sEnemy01Front.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sEnemy01Front","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"sprite_index","filters":[],"listItems":[],"multiselect":false,"name":"sprite_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_index","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"spriteBack","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"spriteBack","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sEnemy01Back","path":"sprites/sEnemy01Back/sEnemy01Back.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sEnemy01Back","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"spriteLeft","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"spriteLeft","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sEnemy01Left","path":"sprites/sEnemy01Left/sEnemy01Left.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sEnemy01Left","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"spriteRight","filters":[],"listItems":[],"multiselect":false,"name":"spriteRight","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sEnemy01Right","path":"sprites/sEnemy01Right/sEnemy01Right.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sEnemy01Right","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sEnemy",
-    "path":"sprites/sEnemy/sEnemy.yy",
+    "name":"sEnemy01Front",
+    "path":"sprites/sEnemy01Front/sEnemy01Front.yy",
   },
   "spriteMaskId":null,
   "visible":true,
