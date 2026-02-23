@@ -40,11 +40,14 @@
     {"$GMObjectProperty":"v2","%Name":"sprite_index","filters":[],"listItems":[],"multiselect":false,"name":"sprite_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_index","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"spriteBack","filters":[
         "GMSprite",
-      ],"listItems":[],"multiselect":false,"name":"spriteBack","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sEnemy01Back","path":"sprites/sEnemy01Back/sEnemy01Back.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sEnemy01Back","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"spriteBack","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sEnemy01WalkBack","path":"sprites/sEnemy01WalkBack/sEnemy01WalkBack.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sEnemy01WalkBack","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"spriteLeft","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"spriteLeft","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sEnemy01Left","path":"sprites/sEnemy01Left/sEnemy01Left.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sEnemy01Left","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"spriteRight","filters":[],"listItems":[],"multiselect":false,"name":"spriteRight","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sEnemy01Right","path":"sprites/sEnemy01Right/sEnemy01Right.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sEnemy01Right","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"spriteIdle","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"spriteIdle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sEnemy01Front","path":"sprites/sEnemy01Front/sEnemy01Front.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sEnemy01Front","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -48,7 +48,7 @@ if (!foundplayer)
 	}
 	if (( tempdelay == sightdelay && canseeplayer || touchingplayer ) && !foundplayer)
 	{
-		sprite_index = spriteFront
+		sprite_index = spriteIdle
 		foundplayer = true;
 		global.shuffle_buttons = true;
 		global.enemy_index = enemy_index
