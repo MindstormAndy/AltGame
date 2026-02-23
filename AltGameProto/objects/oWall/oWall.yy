@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"oWall",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"oWall",
   "overriddenProperties":[],
@@ -23,13 +25,16 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"sprite","filters":[],"listItems":[],"multiselect":false,"name":"sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sWallFrontBottom","path":"sprites/sWallFrontBottom/sWallFrontBottom.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sWallFrontBottom","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"sprite_index","filters":[],"listItems":[],"multiselect":false,"name":"sprite_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_index","varType":4,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sWall",
-    "path":"sprites/sWall/sWall.yy",
+    "name":"sWallFrontBottom",
+    "path":"sprites/sWallFrontBottom/sWallFrontBottom.yy",
   },
   "spriteMaskId":null,
   "visible":true,
