@@ -48,6 +48,9 @@
     {"$GMObjectProperty":"v2","%Name":"spriteIdle","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"spriteIdle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sEnemy01Front","path":"sprites/sEnemy01Front/sEnemy01Front.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sEnemy01Front","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"spriteBig","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"spriteBig","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sEnemy01Big","path":"sprites/sEnemy01Big/sEnemy01Big.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sEnemy01Big","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

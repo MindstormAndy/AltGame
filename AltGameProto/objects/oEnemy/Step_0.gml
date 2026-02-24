@@ -52,6 +52,7 @@ if (!global.found && !foundplayer)
 		foundplayer = true;
 		global.shuffle_buttons = true;
 		global.enemy_index = enemy_index
+		global.enemy_big = spriteBig
 		global.found = true;
 		if (global.social_battery >= socialcost) global.social_battery -= socialcost;
 		else global.social_battery = 0;

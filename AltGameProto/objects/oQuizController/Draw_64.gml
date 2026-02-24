@@ -34,7 +34,7 @@ if (global.found)
 	timer_ratio = (curr_frames / timer_frames)*1216*gui_scale;
 	
 	draw_rectangle_colour(0, 0, 1280*gui_scale, 720*gui_scale, c_black, c_black, c_black, c_black, false);
-	draw_sprite_stretched(sEnemy01Big, 0, 175*gui_scale, 50*gui_scale, 250*gui_scale, 250*gui_scale);
+	draw_sprite_stretched(global.enemy_big, 0, 175*gui_scale, 50*gui_scale, 250*gui_scale, 250*gui_scale);
 	draw_rectangle_colour(prompt_x*gui_scale, prompt_y*gui_scale, prompt_x*gui_scale + prompt_width*gui_scale, prompt_y*gui_scale + prompt_height*gui_scale, c_gray, c_gray, c_gray, c_gray, false);
 	draw_rectangle_colour(button1x*gui_scale, button1y*gui_scale, button1x*gui_scale + button_width*gui_scale, button1y*gui_scale + button_height*gui_scale, button1c, button1c, button1c, button1c, false);
 	draw_rectangle_colour(button2x*gui_scale, button2y*gui_scale, button2x*gui_scale + button_width*gui_scale, button2y*gui_scale + button_height*gui_scale, button2c, button2c, button2c, button2c, false);
