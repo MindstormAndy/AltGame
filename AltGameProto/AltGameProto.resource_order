@@ -31,6 +31,7 @@
     {"name":"sEnemy02Front","order":2,"path":"sprites/sEnemy02Front/sEnemy02Front.yy",},
     {"name":"sEnemy02Left","order":19,"path":"sprites/sEnemy02Left/sEnemy02Left.yy",},
     {"name":"sEnemy02Right","order":18,"path":"sprites/sEnemy02Right/sEnemy02Right.yy",},
+    {"name":"sEnemy02WalkFront","order":31,"path":"sprites/sEnemy02WalkFront/sEnemy02WalkFront.yy",},
     {"name":"sEnemyAlert","order":4,"path":"sprites/sEnemyAlert/sEnemyAlert.yy",},
     {"name":"sEnemyInteracted","order":6,"path":"sprites/sEnemyInteracted/sEnemyInteracted.yy",},
     {"name":"sFloor","order":26,"path":"sprites/sFloor/sFloor.yy",},

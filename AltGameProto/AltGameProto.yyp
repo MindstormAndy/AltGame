@@ -54,6 +54,7 @@
     {"id":{"name":"sEnemy02Front","path":"sprites/sEnemy02Front/sEnemy02Front.yy",},},
     {"id":{"name":"sEnemy02Left","path":"sprites/sEnemy02Left/sEnemy02Left.yy",},},
     {"id":{"name":"sEnemy02Right","path":"sprites/sEnemy02Right/sEnemy02Right.yy",},},
+    {"id":{"name":"sEnemy02WalkFront","path":"sprites/sEnemy02WalkFront/sEnemy02WalkFront.yy",},},
     {"id":{"name":"sEnemyAlert","path":"sprites/sEnemyAlert/sEnemyAlert.yy",},},
     {"id":{"name":"sEnemyInteracted","path":"sprites/sEnemyInteracted/sEnemyInteracted.yy",},},
     {"id":{"name":"sFloor","path":"sprites/sFloor/sFloor.yy",},},
