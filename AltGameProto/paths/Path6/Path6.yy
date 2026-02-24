@@ -5,8 +5,8 @@
   "kind":0,
   "name":"Path6",
   "parent":{
-    "name":"AltGameProto",
-    "path":"AltGameProto.yyp",
+    "name":"Paths",
+    "path":"folders/Paths.yy",
   },
   "points":[
     {"speed":100.0,"x":384.0,"y":384.0,},

@@ -1,4 +1,4 @@
-if (!foundplayer)
+if (!global.found && !foundplayer)
 {
 	path_speed = 2;
 	xdir = 0

@@ -1,6 +1,9 @@
-if (!variable_global_exists("found")) {
-    global.found = false;
-}
+global.found = false;
+global.shuffle_buttons = true;
+global.enemy_index = 0;
+global.social_battery = 100;
+global.lost = false;
+gpu_set_texfilter(false);
 
 prompt_x = 75
 prompt_y = 350
@@ -18,7 +21,15 @@ button4y = 375
 button_width = 275
 button_height = 150
 
-global.shuffle_buttons = false
+button1c = c_orange
+button2c = c_orange
+button3c = c_orange
+button4c = c_orange
+
+timer_seconds = 3
+timer_frames = 60 * timer_seconds
+curr_frames = timer_frames
+
 
 enum prompt_values
 {
@@ -30,40 +41,10 @@ enum prompt_values
 
 file_grid = load_csv("TestPrompts.csv")
 answer_array = array_create(4)
-
-// answer_array[0] = good
-// answer_array[1] = ok
-// answer_array[2] = bad
-// answer_array[3] = garbage
-
-
-
-
-
-answer1 = 
-{
-	text : "This is some placeholder text for a great response to the prompt.",
-	value : prompt_values.great
-};
-answer2 =
-{
-	text : "This is some placeholder text for an ok response to the prompt.",
-	value: prompt_values.ok
-};
-answer3 = 
-{
-	text : "This is some placeholder text for a bad response to the prompt.",
-	value : prompt_values.bad
-}
-answer4 =
-{
-	text : "This is some placeholder text for a garbage response to the prompt.",
-	value : prompt_values.garbage
-}
+shuffled_array = array_create(4)
 
 gui_scale = view_wport / 1280
 
-plcholder_text = "This is a lot of placeholder text that I am placing here to test to see if text wrapping works. Huzzah!"
-
 draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
+

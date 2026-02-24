@@ -1,6 +1,5 @@
-function UpdateBattery(shuffled_array, index){
-	show_debug_message("Update!")
-	switch shuffled_array[index].value
+function UpdateBattery(prompt_value){
+	switch prompt_value
 	{
 		case prompt_values.great:
 			if (global.social_battery <= 90) global.social_battery += 10;
