@@ -26,8 +26,7 @@ button2c = c_orange
 button3c = c_orange
 button4c = c_orange
 
-timer_seconds = 3
-timer_frames = 60 * timer_seconds
+timer_frames = 60 * timer_duration_secs
 curr_frames = timer_frames
 
 
@@ -40,10 +39,18 @@ enum prompt_values
 }
 
 file_grid = load_csv("TestPrompts.csv")
+for (var i = 0; i < ds_grid_width(file_grid); i++)
+	for (var j = 0; j < ds_grid_height(file_grid); j++)
+		file_grid[# i, j] = string_replace_all(file_grid[# i, j], "*", "'");
+
+
 answer_array = array_create(4)
 shuffled_array = array_create(4)
 
 gui_scale = view_wport / 1280
+prompt_font_size_gui = prompt_font_size*gui_scale;
+answer_font_size_gui = answer_font_size*gui_scale;
+end_font_size_gui = end_font_size*gui_scale;
 
 draw_set_halign(fa_center)
 draw_set_valign(fa_middle)

@@ -1,4 +1,4 @@
-if (!global.found && !foundplayer)
+if (!global.found && !foundplayer && global.alive)
 {
 	path_speed = 2;
 	xdir = 0
@@ -39,7 +39,6 @@ if (!global.found && !foundplayer)
 
 	if (canseeplayer)
 	{
-		sprite_index = sEnemyAlert
 		tempdelay++;
 	}
 	else

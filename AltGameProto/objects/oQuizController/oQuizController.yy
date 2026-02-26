@@ -31,9 +31,8 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"prompt_font_size","filters":[],"listItems":[],"multiselect":false,"name":"prompt_font_size","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"answer_font_size","filters":[],"listItems":[],"multiselect":false,"name":"answer_font_size","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"big_sprite","filters":[
-        "GMSprite",
-      ],"listItems":[],"multiselect":false,"name":"big_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sEnemy01Big","path":"sprites/sEnemy01Big/sEnemy01Big.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sEnemy01Big","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"end_font_size","filters":[],"listItems":[],"multiselect":false,"name":"end_font_size","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"timer_duration_secs","filters":[],"listItems":[],"multiselect":false,"name":"timer_duration_secs","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -1,7 +1,8 @@
-mouse_gui_x = device_mouse_x_to_gui(0)
-mouse_gui_y = device_mouse_y_to_gui(0)
-if (global.found && !global.shuffle_buttons)
+if (global.found && !global.shuffle_buttons && global.alive)
 {
+	mouse_gui_x = device_mouse_x_to_gui(0)
+	mouse_gui_y = device_mouse_y_to_gui(0)
+
 	if (curr_frames == 0)
 	{
 		global.found = false;

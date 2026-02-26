@@ -1,0 +1,1 @@
+global.game_end = false;
