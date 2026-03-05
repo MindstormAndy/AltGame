@@ -5,10 +5,7 @@ if keyboard_check_pressed(ord("F")) window_set_fullscreen(!window_get_fullscreen
 
 if (global.alive)
 {
-	if (global.social_battery <= 0)
-	{
-		global.alive = false;
-	}
+
 
 	if (!global.found)
 	{

@@ -1,3 +1,10 @@
+draw_set_halign(fa_center)
+draw_set_valign(fa_middle)
+draw_rectangle_colour(32*gui_scale, 4*gui_scale, 300*gui_scale, 28*gui_scale, c_black, c_black, c_black, c_black, false)
+draw_text_colour(108*gui_scale, 16*gui_scale, "SOCIAL BATTERY:", c_red, c_red, c_red, c_red, 256*gui_scale)
+draw_rectangle_colour(180*gui_scale, 12*gui_scale, 280*gui_scale, 20*gui_scale, c_ltgray, c_ltgray, c_ltgray, c_ltgray, false);
+draw_rectangle_colour(180*gui_scale, 12*gui_scale, (180 + global.social_battery)*gui_scale, 20*gui_scale, c_red, c_red, c_red, c_red, false)
+
 if (global.alive && !global.game_end)
 {
 	if (global.found)
@@ -54,10 +61,10 @@ if (global.alive && !global.game_end)
 	
 
 	}
-	draw_rectangle_colour(32, 4, 300, 28, c_black, c_black, c_black, c_black, false)
-	draw_text_colour(108, 16, "SOCIAL BATTERY:", c_red, c_red, c_red, c_red, 256)
-	draw_rectangle_colour(180, 12, 280, 20, c_ltgray, c_ltgray, c_ltgray, c_ltgray, false);
-	draw_rectangle_colour(180, 12, 180 + global.social_battery, 20, c_red, c_red, c_red, c_red, false)
+	draw_rectangle_colour(32*gui_scale, 4*gui_scale, 300*gui_scale, 28*gui_scale, c_black, c_black, c_black, c_black, false)
+	draw_text_colour(108*gui_scale, 16*gui_scale, "SOCIAL BATTERY:", c_red, c_red, c_red, c_red, 256*gui_scale)
+	draw_rectangle_colour(180*gui_scale, 12*gui_scale, 280*gui_scale, 20*gui_scale, c_ltgray, c_ltgray, c_ltgray, c_ltgray, false);
+	draw_rectangle_colour(180*gui_scale, 12*gui_scale, (180 + global.social_battery)*gui_scale, 20*gui_scale, c_red, c_red, c_red, c_red, false)
 }
 else if (!global.alive)
 {

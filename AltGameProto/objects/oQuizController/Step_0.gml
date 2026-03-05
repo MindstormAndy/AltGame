@@ -1,3 +1,8 @@
+if (global.alive && global.social_battery <= 0)
+{
+	global.alive = false;
+}
+
 if (global.found && !global.shuffle_buttons && global.alive)
 {
 	mouse_gui_x = device_mouse_x_to_gui(0)

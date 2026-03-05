@@ -52,6 +52,5 @@ prompt_font_size_gui = prompt_font_size*gui_scale;
 answer_font_size_gui = answer_font_size*gui_scale;
 end_font_size_gui = end_font_size*gui_scale;
 
-draw_set_halign(fa_center)
-draw_set_valign(fa_middle)
+
 

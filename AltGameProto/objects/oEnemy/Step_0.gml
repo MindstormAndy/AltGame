@@ -45,7 +45,7 @@ if (!global.found && !foundplayer && global.alive)
 	{
 		tempdelay = 0;
 	}
-	if (( tempdelay == sightdelay && canseeplayer || touchingplayer ) && !foundplayer)
+	if ((tempdelay == sightdelay && canseeplayer && !foundplayer) || touchingplayer)
 	{
 		sprite_index = spriteIdle
 		foundplayer = true;
