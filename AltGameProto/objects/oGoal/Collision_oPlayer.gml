@@ -1,6 +1,6 @@
 if (global.alive)
 {
-	if (room == room_last)
+	if (room == last_room)
 	{	
 
 		global.game_end = true;

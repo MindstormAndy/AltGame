@@ -2,6 +2,7 @@ global.found = false;
 global.shuffle_buttons = true;
 global.enemy_index = 0;
 global.social_battery = 100;
+global.num_interacted = 0;
 global.lost = false;
 gpu_set_texfilter(false);
 
