@@ -6,6 +6,15 @@ global.num_interacted = 0;
 global.lost = false;
 gpu_set_texfilter(false);
 
+// Health Bar Variables
+social_battery_max = global.social_battery;
+
+healthbar_width = global.social_battery + 8;
+healthbar_height = 60;
+healthbar_x = 96;
+healthbar_y = 32;
+
+
 prompt_x = 75
 prompt_y = 350
 prompt_width = 450
