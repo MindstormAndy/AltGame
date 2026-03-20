@@ -16,7 +16,7 @@ if (global.found && !global.shuffle_buttons && global.alive)
 	}
 	if (point_in_rectangle(mouse_gui_x, mouse_gui_y, button1x, button1y, button1x+button_width, button1y+button_height))
 	{
-		button1c = c_gray
+		button1c = sButtonClicked
 		if (mouse_check_button_pressed(mb_left))
 		{
 			global.found = false;
@@ -26,12 +26,12 @@ if (global.found && !global.shuffle_buttons && global.alive)
 	}
 	else
 	{
-		button1c = c_orange
+		button1c = sButton
 	}
 	
 	if (point_in_rectangle(mouse_gui_x, mouse_gui_y, button2x, button2y, button2x+button_width, button2y+button_height))
 	{
-		button2c = c_gray
+		button2c = sButtonClicked
 		if (mouse_check_button_pressed(mb_left))
 		{
 			global.found = false;
@@ -41,12 +41,12 @@ if (global.found && !global.shuffle_buttons && global.alive)
 	}
 	else
 	{
-		button2c = c_orange
+		button2c = sButton
 	}
 	
 	if (point_in_rectangle(mouse_gui_x, mouse_gui_y, button3x, button3y, button3x+button_width, button3y+button_height))
 	{
-		button3c = c_gray
+		button3c = sButtonClicked
 		if (mouse_check_button_pressed(mb_left))
 		{
 			global.found = false;
@@ -56,12 +56,12 @@ if (global.found && !global.shuffle_buttons && global.alive)
 	}
 	else
 	{
-		button3c = c_orange
+		button3c = sButton
 	}
 	
 	if (point_in_rectangle(mouse_gui_x, mouse_gui_y, button4x, button4y, button4x+button_width, button4y+button_height))
 	{
-		button4c = c_gray
+		button4c = sButtonClicked
 		if (mouse_check_button_pressed(mb_left))
 		{
 			global.found = false;
@@ -71,7 +71,7 @@ if (global.found && !global.shuffle_buttons && global.alive)
 	}
 	else
 	{
-		button4c = c_orange
+		button4c = sButton
 	}
 	if (curr_frames > 0) curr_frames--;
 }
