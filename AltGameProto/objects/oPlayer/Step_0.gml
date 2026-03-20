@@ -61,14 +61,14 @@ if (global.alive)
 	yspd = lengthdir_y(_spd, moveDir);
 
 	//collision
-	if place_meeting(x + xspd, y, oWall)
+	if place_meeting(x + xspd, y, tilemap)
 	{
-		while !place_meeting(x + _horizKey, y, oWall) x += _horizKey;
+		while !place_meeting(x + _horizKey, y, tilemap) x += _horizKey;
 		xspd = 0;
 	}
-	if place_meeting(x, y + yspd, oWall)
+	if place_meeting(x, y + yspd, tilemap)
 	{
-		while !place_meeting(x, y + _vertKey, oWall) y += _vertKey;
+		while !place_meeting(x, y + _vertKey, tilemap) y += _vertKey;
 		yspd = 0;
 	}
 

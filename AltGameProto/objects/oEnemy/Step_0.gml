@@ -32,7 +32,7 @@ if (!global.found && !foundplayer && global.alive)
 	
 		canseeplayer = (collision_rectangle(x, y + sightwidth, x + sightrange * xdir, y - sightwidth, oPlayer, false, true)  ||
 					    collision_rectangle(x + sightwidth, y, x - sightwidth, y + sightrange * ydir, oPlayer, false, true)) &&
-						!collision_line(x, y, oPlayer.x, oPlayer.y, oWall, false, true);
+						!collision_line(x, y, oPlayer.x, oPlayer.y, tilemap, false, true);
 		touchingplayer = collision_point(x, y, oPlayer, false, true)
 	}
 
