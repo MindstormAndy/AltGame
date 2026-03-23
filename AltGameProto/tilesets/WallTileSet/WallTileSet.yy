@@ -3,16 +3,17 @@
   "%Name":"WallTileSet",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":23,
-    "SerialiseWidth":10,
+    "SerialiseHeight":26,
+    "SerialiseWidth":13,
     "TileCompressedData":[
-      -166,0,4,6,0,10,11,-6,0,4,12,0,16,17,-6,0,4,18,0,22,23,-16,0,4,7,0,8,9,-6,0,4,13,0,14,15,-6,0,4,19,0,
-      20,21,
+      -161,0,8,10,0,11,0,18,0,16,17,-5,0,8,20,0,21,0,28,0,26,27,-5,0,8,30,0,31,0,38,0,36,37,-18,0,6,12,0,13,
+      0,14,15,-7,0,6,22,0,23,0,24,25,-7,0,6,32,0,33,0,34,35,-20,0,8,50,51,52,0,53,0,54,55,-5,0,8,60,61,62,
+      0,63,0,64,65,-18,0,3,46,0,47,-10,0,3,56,0,57,-10,0,3,66,0,67,-5,0,
     ],
     "TileDataFormat":1,
   },
   "name":"WallTileSet",
-  "out_columns":5,
+  "out_columns":8,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -38,5 +39,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":24,
+  "tile_count":70,
 }
