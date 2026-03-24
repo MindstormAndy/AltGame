@@ -79,7 +79,7 @@ if (global.alive && !global.game_end)
 		draw_sprite_stretched(global.enemy_big, 0, 175*gui_scale, 50*gui_scale, 250*gui_scale, 250*gui_scale);
 		
 		// Prompt text box
-		draw_rectangle_colour(prompt_x*gui_scale, prompt_y*gui_scale, prompt_x*gui_scale + prompt_width*gui_scale, prompt_y*gui_scale + prompt_height*gui_scale, c_gray, c_gray, c_gray, c_gray, false);
+		draw_sprite_stretched(sPromptBox, 0, prompt_x*gui_scale, prompt_y*gui_scale, prompt_width*gui_scale, prompt_height*gui_scale);
 		
 		// Buttons
 		draw_rectangle_colour(button1x*gui_scale, button1y*gui_scale, button1x*gui_scale + button_width*gui_scale, button1y*gui_scale + button_height*gui_scale, button1c, button1c, button1c, button1c, false);
