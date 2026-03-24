@@ -92,16 +92,42 @@ if (global.alive && !global.game_end)
 		
 		// Timer size-changing red box
 		draw_rectangle_colour(32*gui_scale + (1216-timer_ratio)/2, 656*gui_scale, 32*gui_scale + (1216-timer_ratio)/2 + timer_ratio, 698*gui_scale, c_red, c_red, c_red, c_red, false);
+
+		// Change button sprite whether player is hovering over it or not
 		
-		// Text
+		if button1c == sButtonClicked
+		{
+			draw_sprite_stretched(sButtonClicked, 0, button1x*gui_scale, button1y*gui_scale, button_width*gui_scale, button_height*gui_scale);
+		}
+		else
+			draw_sprite_stretched(sButton, 0, button1x*gui_scale, button1y*gui_scale, button_width*gui_scale, button_height*gui_scale)
+		if button2c == sButtonClicked
+		{
+			draw_sprite_stretched(sButtonClicked, 0, button2x*gui_scale, button2y*gui_scale, button_width*gui_scale, button_height*gui_scale)
+		}
+		else
+			draw_sprite_stretched(sButton, 0, button2x*gui_scale, button2y*gui_scale, button_width*gui_scale, button_height*gui_scale)
+		if button3c == sButtonClicked
+		{
+			draw_sprite_stretched(sButtonClicked, 0, button3x*gui_scale, button3y*gui_scale, button_width*gui_scale, button_height*gui_scale)
+		}
+		else
+			draw_sprite_stretched(sButton, 0, button3x*gui_scale, button3y*gui_scale, button_width*gui_scale, button_height*gui_scale)
+		if button4c == sButtonClicked
+		{
+			draw_sprite_stretched(sButtonClicked, 0, button4x*gui_scale, button4y*gui_scale, button_width*gui_scale, button_height*gui_scale)
+		}
+		else
+				draw_sprite_stretched(sButton, 0, button4x*gui_scale, button4y*gui_scale, button_width*gui_scale, button_height*gui_scale)
+		
+
 		draw_text_ext_transformed(button1x*gui_scale + button_width*gui_scale / 2, button1y*gui_scale + button_height*gui_scale / 2, shuffled_array[0].text, 20*gui_scale, (button_width*gui_scale - 10)/answer_font_size_gui, answer_font_size_gui, answer_font_size_gui, 0);
 		draw_text_ext_transformed(button2x*gui_scale + button_width*gui_scale / 2, button2y*gui_scale + button_height*gui_scale / 2, shuffled_array[1].text, 20*gui_scale, (button_width*gui_scale - 10)/answer_font_size_gui, answer_font_size_gui, answer_font_size_gui, 0);
 		draw_text_ext_transformed(button3x*gui_scale + button_width*gui_scale / 2, button3y*gui_scale + button_height*gui_scale / 2, shuffled_array[2].text, 20*gui_scale, (button_width*gui_scale - 10)/answer_font_size_gui, answer_font_size_gui, answer_font_size_gui, 0);
 		draw_text_ext_transformed(button4x*gui_scale + button_width*gui_scale / 2, button4y*gui_scale + button_height*gui_scale / 2, shuffled_array[3].text, 20*gui_scale, (button_width*gui_scale - 10)/answer_font_size_gui, answer_font_size_gui, answer_font_size_gui, 0);
 		draw_text_ext_transformed(prompt_x*gui_scale + prompt_width*gui_scale / 2, prompt_y*gui_scale + prompt_height*gui_scale / 2, prompt, 20*gui_scale, (prompt_width*gui_scale - 10)/prompt_font_size_gui, prompt_font_size_gui, prompt_font_size_gui, 0);
 	
-	
-
+		
 	}
 }
 else if (!global.alive)

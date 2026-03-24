@@ -9,4 +9,6 @@ tempdelay = 0;
 socialcost = 13;
 
 // Start the enemy on the path determined by my_path
+tilemap = layer_tilemap_get_id("Tilemap_Walls")
+
 path_start(my_path, 2, path_action_continue, true);

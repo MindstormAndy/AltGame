@@ -37,9 +37,10 @@ if (!global.found && !foundplayer && global.alive)
 		// and the line of sight is not obstructed by a wall.
 		canseeplayer = (collision_rectangle(x, y + sightwidth, x + sightrange * xdir, y - sightwidth, oPlayer, false, true)  ||
 					    collision_rectangle(x + sightwidth, y, x - sightwidth, y + sightrange * ydir, oPlayer, false, true)) &&
-						!collision_line(x, y, oPlayer.x, oPlayer.y, oWall, false, true);
-		
+
 		// touchingplayer is true whenever the player and this enemy collide.
+		!collision_line(x, y, oPlayer.x, oPlayer.y, tilemap, false, true);
+		
 		touchingplayer = collision_point(x, y, oPlayer, false, true)
 	}
 

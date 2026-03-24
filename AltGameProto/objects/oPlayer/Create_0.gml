@@ -6,3 +6,4 @@ yspd = 0;
 
 global.alive = true;
 global.bubble_text = "";
+tilemap = layer_tilemap_get_id("Tilemap_Walls")
