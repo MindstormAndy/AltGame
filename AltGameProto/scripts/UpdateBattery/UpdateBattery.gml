@@ -1,3 +1,4 @@
+// Update the social battery differently depending on the given prompt value.
 function UpdateBattery(prompt_value){
 	switch prompt_value
 	{

@@ -8,4 +8,5 @@ sightwidth = 8;
 tempdelay = 0;
 socialcost = 13;
 
+// Start the enemy on the path determined by my_path
 path_start(my_path, 2, path_action_continue, true);

@@ -5,3 +5,4 @@ xspd = 0;
 yspd = 0;
 
 global.alive = true;
+global.bubble_text = "";
