@@ -26,7 +26,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"AltGameProto",
   "resources":[
@@ -50,6 +50,7 @@
     {"id":{"name":"Path20","path":"paths/Path20/Path20.yy",},},
     {"id":{"name":"Path21","path":"paths/Path21/Path21.yy",},},
     {"id":{"name":"Path22","path":"paths/Path22/Path22.yy",},},
+    {"id":{"name":"Path23","path":"paths/Path23/Path23.yy",},},
     {"id":{"name":"Path3","path":"paths/Path3/Path3.yy",},},
     {"id":{"name":"Path4","path":"paths/Path4/Path4.yy",},},
     {"id":{"name":"Path5","path":"paths/Path5/Path5.yy",},},
