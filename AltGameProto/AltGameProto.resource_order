@@ -1,15 +1,16 @@
 {
   "FolderOrderSettings":[
-    {"name":"Paths Room 5","order":9,"path":"folders/Paths Room 5.yy",},
     {"name":"Objects","order":3,"path":"folders/Objects.yy",},
     {"name":"Paths Room 2","order":5,"path":"folders/Paths Room 2.yy",},
     {"name":"Paths Room 4","order":8,"path":"folders/Paths Room 4.yy",},
+    {"name":"Paths Room 5","order":9,"path":"folders/Paths Room 5.yy",},
     {"name":"Paths Room3","order":6,"path":"folders/Paths Room3.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Sprites","order":2,"path":"folders/Sprites.yy",},
     {"name":"Tilesets","order":7,"path":"folders/Tilesets.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"oBubbleTrigger","order":5,"path":"objects/oBubbleTrigger/oBubbleTrigger.yy",},
     {"name":"oGoal","order":1,"path":"objects/oGoal/oGoal.yy",},
     {"name":"oPlayer","order":2,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"oQuizController","order":3,"path":"objects/oQuizController/oQuizController.yy",},
@@ -90,6 +91,7 @@
     {"name":"sPlayerWalkFront","order":13,"path":"sprites/sPlayerWalkFront/sPlayerWalkFront.yy",},
     {"name":"sPlayerWalkLeft","order":14,"path":"sprites/sPlayerWalkLeft/sPlayerWalkLeft.yy",},
     {"name":"sPlayerWalkRight","order":15,"path":"sprites/sPlayerWalkRight/sPlayerWalkRight.yy",},
+    {"name":"Sprite45","order":10,"path":"sprites/Sprite45/Sprite45.yy",},
     {"name":"sPromptBox","order":43,"path":"sprites/sPromptBox/sPromptBox.yy",},
     {"name":"sQuizBG","order":9,"path":"sprites/sQuizBG/sQuizBG.yy",},
     {"name":"sTileset","order":41,"path":"sprites/sTileset/sTileset.yy",},

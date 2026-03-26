@@ -10,10 +10,10 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"Paths Room 5","folderPath":"folders/Paths Room 5.yy","name":"Paths Room 5","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths Room 2","folderPath":"folders/Paths Room 2.yy","name":"Paths Room 2","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths Room 4","folderPath":"folders/Paths Room 4.yy","name":"Paths Room 4","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Paths Room 5","folderPath":"folders/Paths Room 5.yy","name":"Paths Room 5","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths Room3","folderPath":"folders/Paths Room3.yy","name":"Paths Room3","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -32,6 +32,7 @@
   },
   "name":"AltGameProto",
   "resources":[
+    {"id":{"name":"oBubbleTrigger","path":"objects/oBubbleTrigger/oBubbleTrigger.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oGoal","path":"objects/oGoal/oGoal.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
@@ -120,6 +121,7 @@
     {"id":{"name":"sPlayerWalkFront","path":"sprites/sPlayerWalkFront/sPlayerWalkFront.yy",},},
     {"id":{"name":"sPlayerWalkLeft","path":"sprites/sPlayerWalkLeft/sPlayerWalkLeft.yy",},},
     {"id":{"name":"sPlayerWalkRight","path":"sprites/sPlayerWalkRight/sPlayerWalkRight.yy",},},
+    {"id":{"name":"Sprite45","path":"sprites/Sprite45/Sprite45.yy",},},
     {"id":{"name":"sPromptBox","path":"sprites/sPromptBox/sPromptBox.yy",},},
     {"id":{"name":"sQuizBG","path":"sprites/sQuizBG/sQuizBG.yy",},},
     {"id":{"name":"sTileset","path":"sprites/sTileset/sTileset.yy",},},
@@ -134,9 +136,9 @@
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
-    {"roomId":{"name":"Tutorial","path":"rooms/Tutorial/Tutorial.yy",},},
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"roomId":{"name":"Room5","path":"rooms/Room5/Room5.yy",},},
+    {"roomId":{"name":"Tutorial","path":"rooms/Tutorial/Tutorial.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

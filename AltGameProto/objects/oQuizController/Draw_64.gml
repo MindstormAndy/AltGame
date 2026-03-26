@@ -1,3 +1,8 @@
+draw_set_halign(fa_right)
+draw_set_valign(fa_middle)
+
+draw_text(1270, 15, global.bubbletext)
+
 // Set alignment of text relative to given x and y positions.
 draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
@@ -126,7 +131,7 @@ if (global.alive && !global.game_end)
 		draw_text_ext_transformed(button3x*gui_scale + button_width*gui_scale / 2, button3y*gui_scale + button_height*gui_scale / 2, shuffled_array[2].text, 20*gui_scale, (button_width*gui_scale - 10)/answer_font_size_gui, answer_font_size_gui, answer_font_size_gui, 0);
 		draw_text_ext_transformed(button4x*gui_scale + button_width*gui_scale / 2, button4y*gui_scale + button_height*gui_scale / 2, shuffled_array[3].text, 20*gui_scale, (button_width*gui_scale - 10)/answer_font_size_gui, answer_font_size_gui, answer_font_size_gui, 0);
 		draw_text_ext_transformed(prompt_x*gui_scale + prompt_width*gui_scale / 2, prompt_y*gui_scale + prompt_height*gui_scale / 2, prompt, 20*gui_scale, (prompt_width*gui_scale - 10)/prompt_font_size_gui, prompt_font_size_gui, prompt_font_size_gui, 0);
-	
+		
 		
 	}
 }

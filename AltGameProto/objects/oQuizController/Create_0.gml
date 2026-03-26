@@ -14,6 +14,11 @@ healthbar_height = 60;
 healthbar_x = 96;
 healthbar_y = 32;
 
+greatBubble = "Dang, I nailed that interaction."
+okBubble = "That could have gone better."
+badBubble = "That was pretty awful..."
+garbageBubble = "AAAAAAAAAAAA WHY DID I SAY THAT"
+
 
 prompt_x = 75
 prompt_y = 350
