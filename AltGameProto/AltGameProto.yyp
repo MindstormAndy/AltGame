@@ -108,6 +108,7 @@
     {"id":{"name":"sEnemyInteracted","path":"sprites/sEnemyInteracted/sEnemyInteracted.yy",},},
     {"id":{"name":"sExclamationMark","path":"sprites/sExclamationMark/sExclamationMark.yy",},},
     {"id":{"name":"sFloor","path":"sprites/sFloor/sFloor.yy",},},
+    {"id":{"name":"sFriendProfile","path":"sprites/sFriendProfile/sFriendProfile.yy",},},
     {"id":{"name":"sGoal","path":"sprites/sGoal/sGoal.yy",},},
     {"id":{"name":"sHealthBarBackground","path":"sprites/sHealthBarBackground/sHealthBarBackground.yy",},},
     {"id":{"name":"sHealthBarBadBorder","path":"sprites/sHealthBarBadBorder/sHealthBarBadBorder.yy",},},

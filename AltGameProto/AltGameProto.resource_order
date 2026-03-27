@@ -78,6 +78,7 @@
     {"name":"sEnemyInteracted","order":6,"path":"sprites/sEnemyInteracted/sEnemyInteracted.yy",},
     {"name":"sExclamationMark","order":44,"path":"sprites/sExclamationMark/sExclamationMark.yy",},
     {"name":"sFloor","order":24,"path":"sprites/sFloor/sFloor.yy",},
+    {"name":"sFriendProfile","order":48,"path":"sprites/sFriendProfile/sFriendProfile.yy",},
     {"name":"sGoal","order":7,"path":"sprites/sGoal/sGoal.yy",},
     {"name":"sHealthBarBackground","order":29,"path":"sprites/sHealthBarBackground/sHealthBarBackground.yy",},
     {"name":"sHealthBarBadBorder","order":32,"path":"sprites/sHealthBarBadBorder/sHealthBarBadBorder.yy",},
