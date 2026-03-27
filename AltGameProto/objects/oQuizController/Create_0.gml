@@ -9,16 +9,19 @@ gpu_set_texfilter(false);
 // Health Bar Variables
 social_battery_max = global.social_battery;
 
-healthbar_width = global.social_battery + 8;
-healthbar_height = 60;
-healthbar_x = 96;
-healthbar_y = 32;
+healthbar_width = global.social_battery + 60;
+healthbar_height = 64;
+healthbar_x = 72;
+healthbar_y = 8;
 
+// Thought Bubble Variables
 greatBubble = "Dang, I nailed that interaction."
 okBubble = "That could have gone better."
 badBubble = "That was pretty awful..."
 garbageBubble = "AAAAAAAAAAAA WHY DID I SAY THAT"
 
+thoughtbubble_x = 1025
+thoughtbubble_y = -20
 
 prompt_x = 75
 prompt_y = 350

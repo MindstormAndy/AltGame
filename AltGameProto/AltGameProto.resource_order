@@ -99,6 +99,7 @@
     {"name":"Sprite45","order":10,"path":"sprites/Sprite45/Sprite45.yy",},
     {"name":"sPromptBox","order":43,"path":"sprites/sPromptBox/sPromptBox.yy",},
     {"name":"sQuizBG","order":9,"path":"sprites/sQuizBG/sQuizBG.yy",},
+    {"name":"sThoughtBubble","order":49,"path":"sprites/sThoughtBubble/sThoughtBubble.yy",},
     {"name":"sTileset","order":41,"path":"sprites/sTileset/sTileset.yy",},
     {"name":"sWall","order":23,"path":"sprites/sWall/sWall.yy",},
     {"name":"sWallTop","order":25,"path":"sprites/sWallTop/sWallTop.yy",},

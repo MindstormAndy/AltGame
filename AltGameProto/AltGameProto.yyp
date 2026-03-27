@@ -129,6 +129,7 @@
     {"id":{"name":"Sprite45","path":"sprites/Sprite45/Sprite45.yy",},},
     {"id":{"name":"sPromptBox","path":"sprites/sPromptBox/sPromptBox.yy",},},
     {"id":{"name":"sQuizBG","path":"sprites/sQuizBG/sQuizBG.yy",},},
+    {"id":{"name":"sThoughtBubble","path":"sprites/sThoughtBubble/sThoughtBubble.yy",},},
     {"id":{"name":"sTileset","path":"sprites/sTileset/sTileset.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"sWallTop","path":"sprites/sWallTop/sWallTop.yy",},},
