@@ -6,6 +6,7 @@ draw_set_valign(fa_middle)
 draw_sprite(sThoughtBubble, 0, thoughtbubble_x, thoughtbubble_y);
 draw_set_color(c_black)
 draw_text(1270, 25, global.bubbletext)
+draw_set_color(c_white)
 
 
 // Set alignment of text relative to given x and y positions.
@@ -130,7 +131,6 @@ if (global.alive && !global.game_end)
 		else
 				draw_sprite_stretched(sButton, 0, button4x*gui_scale, button4y*gui_scale, button_width*gui_scale, button_height*gui_scale)
 		
-		draw_set_color(c_white)
 		draw_text_ext_transformed(button1x*gui_scale + button_width*gui_scale / 2, button1y*gui_scale + button_height*gui_scale / 2, shuffled_array[0].text, 20*gui_scale, (button_width*gui_scale - 10)/answer_font_size_gui, answer_font_size_gui, answer_font_size_gui, 0);
 		draw_text_ext_transformed(button2x*gui_scale + button_width*gui_scale / 2, button2y*gui_scale + button_height*gui_scale / 2, shuffled_array[1].text, 20*gui_scale, (button_width*gui_scale - 10)/answer_font_size_gui, answer_font_size_gui, answer_font_size_gui, 0);
 		draw_text_ext_transformed(button3x*gui_scale + button_width*gui_scale / 2, button3y*gui_scale + button_height*gui_scale / 2, shuffled_array[2].text, 20*gui_scale, (button_width*gui_scale - 10)/answer_font_size_gui, answer_font_size_gui, answer_font_size_gui, 0);
