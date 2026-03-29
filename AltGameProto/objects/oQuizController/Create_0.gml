@@ -47,6 +47,11 @@ button4c = c_orange
 timer_frames = 60 * timer_duration_secs
 curr_frames = timer_frames
 
+timer_x = 0
+timer_y = 654
+timer_width = 1280
+timer_height = 64
+
 
 enum prompt_values
 {

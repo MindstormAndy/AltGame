@@ -83,8 +83,8 @@ if (global.alive && !global.game_end)
 		// timer_ratio keeps track of how wide the timer bar should be.
 		timer_ratio = (curr_frames / timer_frames)*1216*gui_scale;
 		
-		// Black background
-		draw_rectangle_colour(0, 0, 1280*gui_scale, 720*gui_scale, c_black, c_black, c_black, c_black, false);
+		// Dialogue background
+		draw_sprite_stretched(sDialogueBackground, 0, 0, 0, 1280*gui_scale, 720*gui_scale)
 		
 		// Large enemy sprite
 		draw_sprite_stretched(global.enemy_big, 0, 175*gui_scale, 50*gui_scale, 250*gui_scale, 250*gui_scale);
@@ -98,12 +98,16 @@ if (global.alive && !global.game_end)
 		draw_rectangle_colour(button3x*gui_scale, button3y*gui_scale, button3x*gui_scale + button_width*gui_scale, button3y*gui_scale + button_height*gui_scale, button3c, button3c, button3c, button3c, false);
 		draw_rectangle_colour(button4x*gui_scale, button4y*gui_scale, button4x*gui_scale + button_width*gui_scale, button4y*gui_scale + button_height*gui_scale, button4c, button4c, button4c, button4c, false);
 		
-		// Timer gray background
-		draw_rectangle_colour(32*gui_scale, 656*gui_scale, 1248*gui_scale, 698*gui_scale, c_gray, c_gray, c_gray, c_gray, false);
+		// Timer
 		
-		// Timer size-changing red box
-		draw_rectangle_colour(32*gui_scale + (1216-timer_ratio)/2, 656*gui_scale, 32*gui_scale + (1216-timer_ratio)/2 + timer_ratio, 698*gui_scale, c_red, c_red, c_red, c_red, false);
+		draw_sprite_stretched(sTimerBorderBackground, 0, timer_x*gui_scale, timer_y*gui_scale, timer_width*gui_scale, timer_height*gui_scale);
+		draw_sprite_stretched(sTimer, 0, 128*gui_scale + (1216-timer_ratio), timer_y*gui_scale, timer_width*gui_scale + (1216-timer_ratio) + timer_ratio, timer_height*gui_scale);
+		draw_sprite_stretched(sTimerBorder, 0, timer_x*gui_scale, timer_y*gui_scale, timer_width*gui_scale, timer_height*gui_scale);
+		
+		// Old Timer
+		//draw_rectangle_colour(32*gui_scale + (1216-timer_ratio)/2, 656*gui_scale, 32*gui_scale + (1216-timer_ratio)/2 + timer_ratio, 698*gui_scale, c_red, c_red, c_red, c_red, false);
 
+		
 		// Change button sprite whether player is hovering over it or not
 		
 		if button1c == sButtonClicked
