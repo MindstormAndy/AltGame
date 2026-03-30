@@ -3,6 +3,7 @@ global.shuffle_buttons = true;
 global.enemy_index = 0;
 global.social_battery = 100;
 global.num_interacted = 0;
+global.bubbletext = "";
 global.lost = false;
 gpu_set_texfilter(false);
 
@@ -14,7 +15,7 @@ healthbar_height = 60;
 healthbar_x = 96;
 healthbar_y = 32;
 
-greatBubble = "Dang, I nailed that interaction."
+greatBubble = "I think that went pretty well!"
 okBubble = "That could have gone better."
 badBubble = "That was pretty awful..."
 garbageBubble = "AAAAAAAAAAAA WHY DID I SAY THAT"
