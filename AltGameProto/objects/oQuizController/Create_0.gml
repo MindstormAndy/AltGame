@@ -10,16 +10,18 @@ gpu_set_texfilter(false);
 // Health Bar Variables
 social_battery_max = global.social_battery;
 
-healthbar_width = global.social_battery + 8;
-healthbar_height = 60;
-healthbar_x = 96;
-healthbar_y = 32;
+healthbar_width = global.social_battery + 60;
+healthbar_height = 64;
+healthbar_x = 72;
+healthbar_y = 8;
 
 greatBubble = "I think that went pretty well!"
 okBubble = "That could have gone better."
 badBubble = "That was pretty awful..."
 garbageBubble = "AAAAAAAAAAAA WHY DID I SAY THAT"
 
+thoughtbubble_x = 1025
+thoughtbubble_y = -20
 
 prompt_x = 75
 prompt_y = 350
@@ -44,6 +46,11 @@ button4c = c_orange
 
 timer_frames = 60 * timer_duration_secs
 curr_frames = timer_frames
+
+timer_x = 0
+timer_y = 654
+timer_width = 1280
+timer_height = 64
 
 
 enum prompt_values
