@@ -1,8 +1,12 @@
 if (!variable_global_exists("found")) {
     global.found = false;
 }
+if (!variable_global_exists("doQuiz")) {
+    global.doQuiz = false;
+}
 foundplayer = false;
 interacted = false;
+exclamation = false;
 sightdelay = 15;
 sightwidth = 8;
 tempdelay = 0;

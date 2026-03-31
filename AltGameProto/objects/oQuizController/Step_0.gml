@@ -1,6 +1,7 @@
 if (global.alive && global.social_battery <= 0)
 {
 	global.alive = false;
+	global.doQuiz = false;
 }
 
 if (global.found && !global.shuffle_buttons && global.alive)
@@ -11,8 +12,9 @@ if (global.found && !global.shuffle_buttons && global.alive)
 	if (curr_frames == 0)
 	{
 		global.found = false;
+		global.doQuiz = false;
 		global.num_interacted++;
-		UpdateBattery(prompt_values.garbage);
+		UpdateBattery(prompt_values.nothing);
 	}
 	if (point_in_rectangle(mouse_gui_x, mouse_gui_y, button1x, button1y, button1x+button_width, button1y+button_height))
 	{
@@ -20,6 +22,7 @@ if (global.found && !global.shuffle_buttons && global.alive)
 		if (mouse_check_button_pressed(mb_left))
 		{
 			global.found = false;
+			global.doQuiz = false;
 			global.num_interacted++;
 			UpdateBattery(shuffled_array[0].value);
 		}
@@ -35,6 +38,7 @@ if (global.found && !global.shuffle_buttons && global.alive)
 		if (mouse_check_button_pressed(mb_left))
 		{
 			global.found = false;
+			global.doQuiz = false;
 			global.num_interacted++;
 			UpdateBattery(shuffled_array[1].value);
 		}
@@ -50,6 +54,7 @@ if (global.found && !global.shuffle_buttons && global.alive)
 		if (mouse_check_button_pressed(mb_left))
 		{
 			global.found = false;
+			global.doQuiz = false;
 			global.num_interacted++;
 			UpdateBattery(shuffled_array[2].value);
 		}
@@ -65,6 +70,7 @@ if (global.found && !global.shuffle_buttons && global.alive)
 		if (mouse_check_button_pressed(mb_left))
 		{
 			global.found = false;
+			global.doQuiz = false;
 			global.num_interacted++;
 			UpdateBattery(shuffled_array[3].value);
 		}

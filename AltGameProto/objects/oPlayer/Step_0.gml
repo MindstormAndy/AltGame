@@ -9,6 +9,8 @@ if (global.alive)
 
 	if (!global.found)
 	{
+	image_speed = 1;
+	
 	//get inputs
 	rightKey = keyboard_check(ord("D"));
 	leftKey = keyboard_check(ord("A"));
@@ -59,19 +61,37 @@ if (global.alive)
 
 	xspd = lengthdir_x(_spd, moveDir);
 	yspd = lengthdir_y(_spd, moveDir);
+	
+	feetx1 = x - 8
+	feety1 = y + 8
+	feetx2 = x + 8
+	feety2 = y + 16
 
 	//collision
-	if place_meeting(x + xspd, y, tilemap)
+	//if place_meeting(x + xspd, y, tilemap)
+	if collision_rectangle(feetx1 + xspd, feety1, feetx2 + xspd, feety2, tilemap, false, true)
 	{
-		while !place_meeting(x + _horizKey, y, tilemap) x += _horizKey;
+		//while !place_meeting(x + _horizKey, y, tilemap) x += _horizKey;
+		while !collision_rectangle(feetx1 + _horizKey, feety1, feetx2 + _horizKey, feety2, tilemap, false, true)
+		{
+			x += _horizKey;
+			feetx1 += _horizKey;
+			feetx2 += _horizKey;
+		}
 		xspd = 0;
 	}
-	if place_meeting(x, y + yspd, tilemap)
+	//if place_meeting(x, y + yspd, tilemap)
+	if collision_rectangle(feetx1, feety1 + yspd, feetx2, feety2 + yspd, tilemap, false, true)
 	{
-		while !place_meeting(x, y + _vertKey, tilemap) y += _vertKey;
+		//while !place_meeting(x, y + _vertKey, tilemap) y += _vertKey;
+		while !collision_rectangle(feetx1, feety1 + _vertKey, feetx2, feety2 + _vertKey, tilemap, false, true)
+		{
+			y += _vertKey;
+			feety1 += _vertKey;
+			feety2 += _vertKey;
+		}
 		yspd = 0;
 	}
-
 
 	
 
@@ -81,5 +101,9 @@ if (global.alive)
 
 
 
+	}
+	else {
+		image_index = 0;
+		image_speed = 0;
 	}
 }

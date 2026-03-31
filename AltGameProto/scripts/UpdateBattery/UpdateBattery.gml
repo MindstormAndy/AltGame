@@ -20,5 +20,10 @@ function UpdateBattery(prompt_value){
 			if (global.social_battery >= 20) global.social_battery -= 20;
 			else global.social_battery = 0;
 			break;
+		case prompt_values.nothing:
+			global.bubbletext = nothingBubble;
+			if (global.social_battery >= 20) global.social_battery -= 20;
+			else global.social_battery = 0;
+			break;
 	};
 }

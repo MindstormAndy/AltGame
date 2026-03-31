@@ -3,6 +3,7 @@ if (!global.found && !foundplayer && global.alive)
 	// Only move and interact if this enemy hasn't seen 
 	// the player yet.
 	path_speed = 2;
+	image_speed = 1;
 	xdir = 0
 	ydir = 0;
 	
@@ -60,6 +61,7 @@ if (!global.found && !foundplayer && global.alive)
 	{
 		sprite_index = spriteIdle
 		foundplayer = true;
+		exclamation = true;
 		
 		global.shuffle_buttons = true;
 		
@@ -68,8 +70,12 @@ if (!global.found && !foundplayer && global.alive)
 
 		global.enemy_big = spriteBig
 		
-		// This is what triggers the dialogue
-		global.found = true;
+		
+		global.found = true
+		
+		alarm[0] = 60;
+		
+		
 		
 		// Subtract from the current social battery level
 		if (global.social_battery >= socialcost) global.social_battery -= socialcost;
@@ -79,4 +85,6 @@ if (!global.found && !foundplayer && global.alive)
 else 
 {
 	path_speed = 0;
+	image_index = 0;
+	image_speed = 0;
 }

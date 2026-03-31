@@ -1,18 +1,14 @@
-draw_set_halign(fa_right)
+draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
 
 // Thought Bubble 
 
 draw_sprite(sThoughtBubble, 0, thoughtbubble_x, thoughtbubble_y);
 draw_set_color(c_black)
-draw_text(1270, 25, global.bubbletext)
+//draw_text(1240, 25, global.bubbletext)
+draw_text_ext_transformed(1155, 28, global.bubbletext, 20, 250, 1, 1, 0)
 draw_set_color(c_white)
 
-
-
-// Set alignment of text relative to given x and y positions.
-draw_set_halign(fa_center)
-draw_set_valign(fa_middle)
 
 // Old health bar (uncomment to see)
 //draw_rectangle_colour(32*gui_scale, 4*gui_scale, 300*gui_scale, 28*gui_scale, c_black, c_black, c_black, c_black, false)
@@ -44,7 +40,7 @@ else
 
 if (global.alive && !global.game_end)
 {
-	if (global.found)
+	if (global.doQuiz)
 	{
 		// shuffle_buttons is only true on the first frame of the dialogue screen being open.
 		// This ensures that the dialogue options are in a random order but still influence health correctly.

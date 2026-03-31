@@ -3,8 +3,8 @@ global.shuffle_buttons = true;
 global.enemy_index = 0;
 global.social_battery = 100;
 global.num_interacted = 0;
-global.bubbletext = "";
 global.lost = false;
+global.doQuiz = false;
 gpu_set_texfilter(false);
 
 // Health Bar Variables
@@ -19,6 +19,7 @@ greatBubble = "I think that went pretty well!"
 okBubble = "That could have gone better."
 badBubble = "That was pretty awful..."
 garbageBubble = "AAAAAAAAAAAA WHY DID I SAY THAT"
+nothingBubble = "<I don't know what to put here>"
 
 thoughtbubble_x = 1025
 thoughtbubble_y = -20
@@ -58,7 +59,8 @@ enum prompt_values
 	great,
 	ok,
 	bad,
-	garbage
+	garbage,
+	nothing
 }
 
 file_grid = load_csv("TestPrompts.csv")

@@ -1,3 +1,3 @@
 touchedplayer = false
-global.bubbletext = "test"
+global.bubbletext = "I want to get out of here..."
 

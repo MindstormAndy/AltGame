@@ -1,5 +1,6 @@
 draw_self()
 if (canseeplayer && !foundplayer) draw_sprite(sEnemyAlert, 0, x, y - 24)
+else if (exclamation) draw_sprite(sExclamationMark, 0, x, y - 24)
 
 // Use this code to see lines of sight
 //if (xdir != 0)
