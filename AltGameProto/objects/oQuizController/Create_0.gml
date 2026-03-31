@@ -19,7 +19,7 @@ greatBubble = "I think that went pretty well!"
 okBubble = "That could have gone better."
 badBubble = "That was pretty awful..."
 garbageBubble = "AAAAAAAAAAAA WHY DID I SAY THAT"
-nothingBubble = "<I don't know what to put here>"
+nothingBubble = "I don't know what to say..."
 
 thoughtbubble_x = 1025
 thoughtbubble_y = -20

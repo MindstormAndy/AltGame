@@ -73,7 +73,7 @@ if (!global.found && !foundplayer && global.alive)
 		
 		global.found = true
 		
-		alarm[0] = 60;
+		alarm[0] = 30;
 		
 		
 		
