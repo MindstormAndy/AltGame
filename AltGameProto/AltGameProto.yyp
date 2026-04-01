@@ -120,6 +120,8 @@
     {"id":{"name":"sHealthGreen","path":"sprites/sHealthGreen/sHealthGreen.yy",},},
     {"id":{"name":"sHealthRed","path":"sprites/sHealthRed/sHealthRed.yy",},},
     {"id":{"name":"sHealthYellow","path":"sprites/sHealthYellow/sHealthYellow.yy",},},
+    {"id":{"name":"sHumanHost","path":"sprites/sHumanHost/sHumanHost.yy",},},
+    {"id":{"name":"sHumanHostProfile","path":"sprites/sHumanHostProfile/sHumanHostProfile.yy",},},
     {"id":{"name":"sPlayerBack","path":"sprites/sPlayerBack/sPlayerBack.yy",},},
     {"id":{"name":"sPlayerFront","path":"sprites/sPlayerFront/sPlayerFront.yy",},},
     {"id":{"name":"sPlayerLeft","path":"sprites/sPlayerLeft/sPlayerLeft.yy",},},

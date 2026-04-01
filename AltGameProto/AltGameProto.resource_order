@@ -90,6 +90,8 @@
     {"name":"sHealthGreen","order":28,"path":"sprites/sHealthGreen/sHealthGreen.yy",},
     {"name":"sHealthRed","order":33,"path":"sprites/sHealthRed/sHealthRed.yy",},
     {"name":"sHealthYellow","order":34,"path":"sprites/sHealthYellow/sHealthYellow.yy",},
+    {"name":"sHumanHost","order":56,"path":"sprites/sHumanHost/sHumanHost.yy",},
+    {"name":"sHumanHostProfile","order":57,"path":"sprites/sHumanHostProfile/sHumanHostProfile.yy",},
     {"name":"sPlayerBack","order":11,"path":"sprites/sPlayerBack/sPlayerBack.yy",},
     {"name":"sPlayerFront","order":8,"path":"sprites/sPlayerFront/sPlayerFront.yy",},
     {"name":"sPlayerLeft","order":10,"path":"sprites/sPlayerLeft/sPlayerLeft.yy",},
