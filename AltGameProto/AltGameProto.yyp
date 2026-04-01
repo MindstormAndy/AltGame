@@ -28,7 +28,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"AltGameProto",
   "resources":[
@@ -87,6 +87,7 @@
     {"id":{"name":"sButton","path":"sprites/sButton/sButton.yy",},},
     {"id":{"name":"sButtonClicked","path":"sprites/sButtonClicked/sButtonClicked.yy",},},
     {"id":{"name":"sDialogueBackground","path":"sprites/sDialogueBackground/sDialogueBackground.yy",},},
+    {"id":{"name":"sDialougeTextbox","path":"sprites/sDialougeTextbox/sDialougeTextbox.yy",},},
     {"id":{"name":"sEnemy01Front","path":"sprites/sEnemy01Front/sEnemy01Front.yy",},},
     {"id":{"name":"sEnemy01Profile","path":"sprites/sEnemy01Profile/sEnemy01Profile.yy",},},
     {"id":{"name":"sEnemy01WalkBack","path":"sprites/sEnemy01WalkBack/sEnemy01WalkBack.yy",},},
@@ -110,6 +111,7 @@
     {"id":{"name":"sExclamationMark","path":"sprites/sExclamationMark/sExclamationMark.yy",},},
     {"id":{"name":"sFloor","path":"sprites/sFloor/sFloor.yy",},},
     {"id":{"name":"sFriendProfile","path":"sprites/sFriendProfile/sFriendProfile.yy",},},
+    {"id":{"name":"sFriendWalkBack","path":"sprites/sFriendWalkBack/sFriendWalkBack.yy",},},
     {"id":{"name":"sGoal","path":"sprites/sGoal/sGoal.yy",},},
     {"id":{"name":"sHealthBarBackground","path":"sprites/sHealthBarBackground/sHealthBarBackground.yy",},},
     {"id":{"name":"sHealthBarBadBorder","path":"sprites/sHealthBarBadBorder/sHealthBarBadBorder.yy",},},
