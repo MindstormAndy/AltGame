@@ -9,7 +9,7 @@
     "path":"folders/Paths Room 4.yy",
   },
   "points":[
-    {"speed":100.0,"x":736.0,"y":288.0,},
+    {"speed":100.0,"x":736.0,"y":256.0,},
     {"speed":100.0,"x":736.0,"y":416.0,},
   ],
   "precision":4,

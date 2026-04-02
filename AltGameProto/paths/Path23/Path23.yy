@@ -9,9 +9,9 @@
     "path":"folders/Paths Room 2.yy",
   },
   "points":[
-    {"speed":100.0,"x":512.0,"y":128.0,},
-    {"speed":100.0,"x":512.0,"y":128.0,},
-    {"speed":100.0,"x":512.0,"y":32.0,},
+    {"speed":100.0,"x":512.0,"y":113.0,},
+    {"speed":100.0,"x":512.0,"y":113.0,},
+    {"speed":100.0,"x":512.0,"y":48.0,},
   ],
   "precision":4,
   "resourceType":"GMPath",
