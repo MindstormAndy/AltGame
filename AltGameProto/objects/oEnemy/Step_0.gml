@@ -7,6 +7,8 @@ if (!global.found && !foundplayer && global.alive)
 	xdir = 0
 	ydir = 0;
 	
+	depth = -bbox_bottom
+	
 	// Change sprite based on direction
 	switch (direction)
 	{

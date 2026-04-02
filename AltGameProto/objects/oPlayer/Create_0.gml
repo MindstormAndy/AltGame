@@ -6,3 +6,4 @@ yspd = 0;
 
 global.alive = true;
 tilemap = layer_tilemap_get_id("Tilemap_Walls")
+
