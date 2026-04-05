@@ -1,11 +1,11 @@
 {
   "$GMSprite":"v2",
   "%Name":"sArmchair",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":31,
   "bbox_left":4,
   "bbox_right":28,
-  "bbox_top":10,
+  "bbox_top":18,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,

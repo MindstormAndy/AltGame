@@ -6,6 +6,9 @@ if keyboard_check_pressed(ord("F")) window_set_fullscreen(!window_get_fullscreen
 if (global.alive)
 {
 
+	var cam = view_camera[0];
+	view_x = x - camera_get_view_x(cam);
+	view_y = y - camera_get_view_y(cam);
 
 	if (!global.found)
 	{
@@ -100,6 +103,29 @@ if (global.alive)
 	//move the player
 	x += xspd;
 	y += yspd;
+	
+	
+	
+	if view_x < 360 
+	{
+		bubble_x_offset = 0
+		bubble_sprite_flip_x = 1
+	}
+	else
+	{
+		bubble_x_offset = -bubbleWidth
+		bubble_sprite_flip_x = -1
+	}
+	if view_y < 180
+	{
+		bubble_y_offset = bubbleHeight*.3
+		bubble_sprite_flip_y = 1
+	}
+	else
+	{
+		bubble_y_offset = -bubbleHeight
+		bubble_sprite_flip_y = -1
+	}
 
 
 

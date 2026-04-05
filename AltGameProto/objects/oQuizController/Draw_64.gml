@@ -3,11 +3,10 @@ draw_set_valign(fa_middle)
 
 // Thought Bubble 
 
-draw_sprite(sThoughtBubble, 0, thoughtbubble_x, thoughtbubble_y);
-draw_set_color(c_black)
-//draw_text(1240, 25, global.bubbletext)
-draw_text_ext_transformed(1155, 28, global.bubbletext, 20, 250, 1, 1, 0)
-draw_set_color(c_white)
+//draw_sprite(sThoughtBubble, 0, thoughtbubble_x, thoughtbubble_y);
+//draw_set_color(c_black)
+//draw_text_ext_transformed(1155, 28, global.bubbletext, 20, 250, 1, 1, 0)
+//draw_set_color(c_white)
 
 
 // Old health bar (uncomment to see)
@@ -46,6 +45,8 @@ if (global.alive && !global.game_end)
 		// This ensures that the dialogue options are in a random order but still influence health correctly.
 		if (global.shuffle_buttons)
 		{
+			
+			global.thinking = true
 			prompt = file_grid[# 1, global.enemy_index]
 			answer_array[0] = 
 			{
