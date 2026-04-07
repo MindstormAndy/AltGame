@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oGoal",
+  "%Name":"oFriend",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oGoal",
+  "name":"oFriend",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,14 +30,14 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"last_room","filters":[
         "GMRoom",
-      ],"listItems":[],"multiselect":false,"name":"last_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Room5","path":"rooms/Room5/Room5.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Room5","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"last_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Final","path":"rooms/Final/Final.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Final","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sGoal",
-    "path":"sprites/sGoal/sGoal.yy",
+    "name":"sFriend",
+    "path":"sprites/sFriend/sFriend.yy",
   },
   "spriteMaskId":null,
   "visible":true,

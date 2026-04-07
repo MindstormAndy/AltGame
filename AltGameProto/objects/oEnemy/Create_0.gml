@@ -4,6 +4,9 @@ if (!variable_global_exists("found")) {
 if (!variable_global_exists("doQuiz")) {
     global.doQuiz = false;
 }
+if (!variable_global_exists("cutscene")) {
+    global.cutscene = false;
+}
 foundplayer = false;
 interacted = false;
 exclamation = false;
@@ -16,3 +19,4 @@ socialcost = 13;
 tilemap = layer_tilemap_get_id("Tilemap_Walls")
 
 path_start(my_path, 2, path_action_continue, true);
+

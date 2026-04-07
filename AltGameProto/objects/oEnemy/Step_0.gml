@@ -1,4 +1,4 @@
-if (!global.found && !foundplayer && global.alive)
+if (!global.found && !foundplayer && !global.cutscene && global.alive)
 {
 	// Only move and interact if this enemy hasn't seen 
 	// the player yet.
