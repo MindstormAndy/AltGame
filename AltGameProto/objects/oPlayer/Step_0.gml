@@ -3,7 +3,7 @@ if keyboard_check_pressed(vk_escape) game_end();
 if keyboard_check_pressed(ord("R")) game_restart();
 if keyboard_check_pressed(ord("F")) window_set_fullscreen(!window_get_fullscreen())
 
-if (global.alive)
+if (global.alive && !global.cutscene)
 {
 
 	var cam = view_camera[0];
@@ -134,4 +134,8 @@ if (global.alive)
 		image_index = 0;
 		image_speed = 0;
 	}
+}
+else {
+	image_index = 0;
+	image_speed = 0;
 }

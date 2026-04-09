@@ -9,24 +9,21 @@ if (global.alive)
 	if (room != last_room)
 	{
 		global.cutscene = true;
-		switch (room)
-		{
-			case Room1:
-				if i < ds_grid_width(file_grid)
-					dialogue_text = file_grid[# 1, i];
-				else
-					
-				break;
-			case Room2:
-				break;
-			case Room3:
-				break;
-			case Room4:
-				break;
-			case Room5:
-				break;
-		}
-		room_goto_next()
+		
+		if (keyboard_check_pressed(vk_space))
+        {
+            if (i < array_length(dialogue_array))
+            {
+				profile_sprite = dialogue_array[i].speaker = "Player" ? sPlayerProfile : sFriendProfile
+                dialogue_text = dialogue_array[i].text;
+                i++;
+            }
+            else
+            {
+                i = 1;
+                global.cutscene = false;
+                room_goto_next();
+            }
+        }
 	}
-
 }
