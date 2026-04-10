@@ -1,4 +1,4 @@
 // Inherit the parent event
 event_inherited();
 
-room_goto(Room1);
+screen_fading(Room1, 0.025, 0.025);
