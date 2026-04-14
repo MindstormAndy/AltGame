@@ -1,4 +1,41 @@
 global.hostscreen = false
+quiz_num = 0;
+
+prompt_x = 75
+prompt_y = 350
+prompt_width = 450
+prompt_height = 250
+
+dialogue_x = 0;
+dialogue_y = 464;
+
+profile_x = 0;
+profile_y = 464;
+
+text_x = 768;
+text_y = 585;
+
+button1clicked = false
+button2clicked = false
+button3clicked = false
+button4clicked = false
+
+button1hovered = false
+button2hovered = false
+button3hovered = false
+button4hovered = false
+
+button1x = 600
+button1y = 200
+button2x = 900
+button2y = 200
+button3x = 600
+button3y = 375
+button4x = 900
+button4y = 375
+button_width = 275
+button_height = 150
+
 
 dialogue_quiz_array = [
 { prompt: "Hey man, it’s good to see you! How are you enjoying my party?", answers: ["Yeah, it’s fun!", "It’s alright.", "Could be better.", "I want to go home."]},
