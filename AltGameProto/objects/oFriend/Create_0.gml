@@ -54,9 +54,6 @@ switch (room)
 			{ speaker: "Friend", text: "Sure thing. I just need to go say thanks to Host for inviting me."}
 		];
 		break;
-	case Room5:
-		dialogue_array = [];
-		break;
 }
 
 if (array_length(dialogue_array) > 0)

@@ -39,10 +39,6 @@ if (global.alive)
 				}
 				else if room == Room4
 				{
-					screen_fading(Room5, 0.025, 0.025);
-				}
-				else if room == Room5
-				{
 					screen_fading(Final, 0.025, 0.025);
 				}
 				alarm[0] = 40

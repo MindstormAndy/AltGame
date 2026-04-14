@@ -37,7 +37,7 @@ else
 
 	
 
-if (global.alive && !global.game_end)
+if (global.alive && !global.game_end && room != TitleScreen)
 {
 	if (global.doQuiz)
 	{

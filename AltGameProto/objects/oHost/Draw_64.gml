@@ -58,5 +58,7 @@ if (global.hostscreen) {
 	}
 	else {
 		sprite_index = sHumanHost
+		screen_fading(TitleScreen, 0.25, 0.25)
+		instance_destroy(oQuizController)
 	}
 }
