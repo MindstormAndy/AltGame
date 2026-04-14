@@ -76,7 +76,7 @@
     {"name":"sCouch","order":60,"path":"sprites/sCouch/sCouch.yy",},
     {"name":"sCreditsBox","order":74,"path":"sprites/sCreditsBox/sCreditsBox.yy",},
     {"name":"sDialogueBackground","order":53,"path":"sprites/sDialogueBackground/sDialogueBackground.yy",},
-    {"name":"sDialougeTextbox","order":55,"path":"sprites/sDialougeTextbox/sDialougeTextbox.yy",},
+    {"name":"sDialogueTextbox","order":55,"path":"sprites/sDialogueTextbox/sDialogueTextbox.yy",},
     {"name":"sEnemy01Front","order":1,"path":"sprites/sEnemy01Front/sEnemy01Front.yy",},
     {"name":"sEnemy01Profile","order":5,"path":"sprites/sEnemy01Profile/sEnemy01Profile.yy",},
     {"name":"sEnemy01Silhouette01","order":69,"path":"sprites/sEnemy01Silhouette01/sEnemy01Silhouette01.yy",},
