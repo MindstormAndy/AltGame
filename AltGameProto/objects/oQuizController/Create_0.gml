@@ -5,6 +5,7 @@ global.social_battery = 100;
 global.num_interacted = 0;
 global.lost = false;
 global.doQuiz = false;
+global.hostscreen = false;
 gpu_set_texfilter(false);
 
 // Health Bar Variables
