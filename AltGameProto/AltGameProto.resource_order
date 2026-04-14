@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+    {"name":"Scripts","order":13,"path":"folders/Scripts.yy",},
     {"name":"Objects","order":3,"path":"folders/Objects.yy",},
     {"name":"TitleObjetcs","order":15,"path":"folders/Objects/TitleObjetcs.yy",},
     {"name":"Paths Room 2","order":5,"path":"folders/Paths Room 2.yy",},
@@ -14,6 +15,7 @@
     {"name":"oBubbleTrigger","order":5,"path":"objects/oBubbleTrigger/oBubbleTrigger.yy",},
     {"name":"oCreditsBox","order":1,"path":"objects/oCreditsBox/oCreditsBox.yy",},
     {"name":"oCreditsButton","order":2,"path":"objects/oCreditsButton/oCreditsButton.yy",},
+    {"name":"oFade","order":16,"path":"objects/oFade/oFade.yy",},
     {"name":"oFriend","order":1,"path":"objects/oFriend/oFriend.yy",},
     {"name":"oFurniture","order":6,"path":"objects/oFurniture/oFurniture.yy",},
     {"name":"oHost","order":7,"path":"objects/oHost/oHost.yy",},
@@ -64,8 +66,8 @@
     {"name":"Room5","order":7,"path":"rooms/Room5/Room5.yy",},
     {"name":"TitleScreen","order":9,"path":"rooms/TitleScreen/TitleScreen.yy",},
     {"name":"Tutorial","order":4,"path":"rooms/Tutorial/Tutorial.yy",},
-    {"name":"check_collisions","order":11,"path":"scripts/check_collisions/check_collisions.yy",},
-    {"name":"UpdateBattery","order":1,"path":"scripts/UpdateBattery/UpdateBattery.yy",},
+    {"name":"screen_fading","order":1,"path":"scripts/screen_fading/screen_fading.yy",},
+    {"name":"UpdateBattery","order":2,"path":"scripts/UpdateBattery/UpdateBattery.yy",},
     {"name":"sArmchair","order":64,"path":"sprites/sArmchair/sArmchair.yy",},
     {"name":"sBoombox","order":63,"path":"sprites/sBoombox/sBoombox.yy",},
     {"name":"sBossEnemy","order":45,"path":"sprites/sBossEnemy/sBossEnemy.yy",},
@@ -99,6 +101,7 @@
     {"name":"sEnemyAlert","order":4,"path":"sprites/sEnemyAlert/sEnemyAlert.yy",},
     {"name":"sEnemyInteracted","order":6,"path":"sprites/sEnemyInteracted/sEnemyInteracted.yy",},
     {"name":"sExclamationMark","order":44,"path":"sprites/sExclamationMark/sExclamationMark.yy",},
+    {"name":"sFade","order":76,"path":"sprites/sFade/sFade.yy",},
     {"name":"sFloor","order":24,"path":"sprites/sFloor/sFloor.yy",},
     {"name":"sFriend","order":7,"path":"sprites/sFriend/sFriend.yy",},
     {"name":"sFriendProfile","order":48,"path":"sprites/sFriendProfile/sFriendProfile.yy",},

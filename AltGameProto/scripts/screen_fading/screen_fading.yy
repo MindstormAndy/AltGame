@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"UpdateBattery",
+  "%Name":"screen_fading",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"UpdateBattery",
+  "name":"screen_fading",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

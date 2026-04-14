@@ -14,6 +14,7 @@ profile_y = 464;
 text_x = 768;
 text_y = 585;
 
+
 file_grid = load_csv("Room1Dialogue.csv")
 
 
