@@ -11,25 +11,25 @@ if (global.hostscreen) {
 		draw_sprite_stretched(sPromptBox, 0, prompt_x, prompt_y, prompt_width, prompt_height);
 		
 		// Buttons
-		if button1hovered == sButtonClicked
+		if button1hovered
 		{
 			draw_sprite_stretched(sButtonClicked, 0, button1x, button1y, button_width, button_height);
 		}
 		else
 			draw_sprite_stretched(sButton, 0, button1x, button1y, button_width, button_height)
-		if button2hovered == sButtonClicked
+		if button2hovered
 		{
 			draw_sprite_stretched(sButtonClicked, 0, button2x, button2y, button_width, button_height)
 		}
 		else
 			draw_sprite_stretched(sButton, 0, button2x, button2y, button_width, button_height)
-		if button3hovered == sButtonClicked
+		if button3hovered
 		{
 			draw_sprite_stretched(sButtonClicked, 0, button3x, button3y, button_width, button_height)
 		}
 		else
 			draw_sprite_stretched(sButton, 0, button3x, button3y, button_width, button_height)
-		if button4hovered == sButtonClicked
+		if button4hovered
 		{
 			draw_sprite_stretched(sButtonClicked, 0, button4x, button4y, button_width, button_height)
 		}
