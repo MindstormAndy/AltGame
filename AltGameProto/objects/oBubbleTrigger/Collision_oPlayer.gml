@@ -2,5 +2,7 @@ if (!touchedplayer) {
 	touchedplayer = true;
 	global.bubbletext = text;
 	global.thinking = true;
-	alarm[0] = 180;
+	if (!global.found) {
+		alarm[0] = 180;
+	}
 }
