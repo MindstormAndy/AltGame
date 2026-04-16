@@ -139,3 +139,8 @@ else {
 	image_index = 0;
 	image_speed = 0;
 }
+
+if (!global.alive && keyboard_check_pressed(vk_anykey)) {
+	instance_destroy(oQuizController)
+	screen_fading(TitleScreen, 0.1, 0.1)
+}

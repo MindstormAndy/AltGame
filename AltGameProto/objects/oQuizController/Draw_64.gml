@@ -146,12 +146,5 @@ else if (!global.alive)
 {
 	// Scenario when social battery runs out
 	draw_rectangle_colour(0, 0, 1280*gui_scale, 720*gui_scale, c_black, c_black, c_black, c_black, false);
-	draw_text_ext_transformed(640*gui_scale, 360*gui_scale, "You run out of social battery and pass out. The friend who invited you drags you to his car and takes you home. You interacted with " + string(global.num_interacted) + " people.", 20*gui_scale, (1080*gui_scale)/end_font_size_gui, end_font_size_gui, end_font_size_gui, 0);
-}
-else if (global.game_end)
-{
-	// Scenario when you reach the end of the last level
-	draw_rectangle_colour(0, 0, 1280*gui_scale, 720*gui_scale, c_black, c_black, c_black, c_black, false);
-	draw_text_ext_transformed(640*gui_scale, 360*gui_scale, "Finally, you found the friend who invited you right at the front door. You tell him you need to go leave so he drives you home. What a nice guy. You interacted with " + string(global.num_interacted) + " people.", 20*gui_scale, (1080*gui_scale)/end_font_size_gui, end_font_size_gui, end_font_size_gui, 0);
-
+	draw_text_ext_transformed(640*gui_scale, 360*gui_scale, "You run out of social battery and retreat into your corner to recharge." , 20*gui_scale, (1080*gui_scale)/end_font_size_gui, end_font_size_gui, end_font_size_gui, 0);
 }
