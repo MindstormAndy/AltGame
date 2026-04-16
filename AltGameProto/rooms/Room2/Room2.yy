@@ -53,7 +53,6 @@
     {"name":"inst_5A420250","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_26AF57AB","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_1BC36B7B","path":"rooms/Room2/Room2.yy",},
-    {"name":"inst_9071E27","path":"rooms/Room2/Room2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -175,9 +174,6 @@
         {"$GMRInstance":"v4","%Name":"inst_1BC36B7B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1BC36B7B","objectId":{"name":"oBubbleTrigger","path":"objects/oBubbleTrigger/oBubbleTrigger.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oBubbleTrigger","path":"objects/oBubbleTrigger/oBubbleTrigger.yy",},"propertyId":{"name":"text","path":"objects/oBubbleTrigger/oBubbleTrigger.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"I hate this song...",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":2.0,"x":832.0,"y":192.0,},
-        {"$GMRInstance":"v4","%Name":"inst_9071E27","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9071E27","objectId":{"name":"oBubbleTrigger","path":"objects/oBubbleTrigger/oBubbleTrigger.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oBubbleTrigger","path":"objects/oBubbleTrigger/oBubbleTrigger.yy",},"propertyId":{"name":"text","path":"objects/oBubbleTrigger/oBubbleTrigger.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":2.0,"x":448.0,"y":64.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tilemap_Walls","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tilemap_Walls","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":63,"TileCompressedData":[
           -3,1,-2,21,4,26,27,21,36,-7,1,11,32,26,27,33,34,21,23,30,31,1,1,-3,21,5,30,31,32,21,22,-3,21,6,35,33,
