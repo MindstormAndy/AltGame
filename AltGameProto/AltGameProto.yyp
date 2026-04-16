@@ -160,6 +160,7 @@
     {"id":{"name":"sPlayerWalkLeft","path":"sprites/sPlayerWalkLeft/sPlayerWalkLeft.yy",},},
     {"id":{"name":"sPlayerWalkRight","path":"sprites/sPlayerWalkRight/sPlayerWalkRight.yy",},},
     {"id":{"name":"Sprite45","path":"sprites/Sprite45/Sprite45.yy",},},
+    {"id":{"name":"Sprite77","path":"sprites/Sprite77/Sprite77.yy",},},
     {"id":{"name":"sPromptBox","path":"sprites/sPromptBox/sPromptBox.yy",},},
     {"id":{"name":"sQuizBG","path":"sprites/sQuizBG/sQuizBG.yy",},},
     {"id":{"name":"sStool01","path":"sprites/sStool01/sStool01.yy",},},
