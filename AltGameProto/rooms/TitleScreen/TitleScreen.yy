@@ -10,6 +10,7 @@
     {"name":"inst_200575B9","path":"rooms/TitleScreen/TitleScreen.yy",},
     {"name":"inst_E98AA8F","path":"rooms/TitleScreen/TitleScreen.yy",},
     {"name":"inst_35573C67","path":"rooms/TitleScreen/TitleScreen.yy",},
+    {"name":"inst_1E3A9571","path":"rooms/TitleScreen/TitleScreen.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -18,6 +19,7 @@
         {"$GMRInstance":"v4","%Name":"inst_35573C67","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_35573C67","objectId":{"name":"oPlayButton","path":"objects/oPlayButton/oPlayButton.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":128.0,"y":68.0,},
         {"$GMRInstance":"v4","%Name":"inst_E98AA8F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E98AA8F","objectId":{"name":"oCreditsButton","path":"objects/oCreditsButton/oCreditsButton.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":128.0,"y":180.0,},
         {"$GMRInstance":"v4","%Name":"inst_200575B9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_200575B9","objectId":{"name":"oQuitButton","path":"objects/oQuitButton/oQuitButton.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":128.0,"y":292.0,},
+        {"$GMRInstance":"v4","%Name":"inst_1E3A9571","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1E3A9571","objectId":{"name":"oResizeControl","path":"objects/oResizeControl/oResizeControl.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":288.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
   ],
   "name":"TitleScreen",

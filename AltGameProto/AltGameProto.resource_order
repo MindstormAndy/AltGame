@@ -24,6 +24,7 @@
     {"name":"oPlayer","order":2,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"oQuitButton","order":4,"path":"objects/oQuitButton/oQuitButton.yy",},
     {"name":"oQuizController","order":3,"path":"objects/oQuizController/oQuizController.yy",},
+    {"name":"oResizeControl","order":18,"path":"objects/oResizeControl/oResizeControl.yy",},
     {"name":"oTitle","order":6,"path":"objects/oTitle/oTitle.yy",},
     {"name":"oWall","order":4,"path":"objects/oWall/oWall.yy",},
     {"name":"Path10","order":4,"path":"paths/Path10/Path10.yy",},
