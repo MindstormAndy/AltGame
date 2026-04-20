@@ -21,7 +21,7 @@ if (global.hostscreen)
 	{
 		quiz_num++
 	}
-	if ((quiz_num >= array_length(dialogue_quiz_array)) and(quiz_num < (array_length(dialogue_quiz_array) + array_length(dialogue_array)) and keyboard_check_pressed(vk_space)))
+	if ((quiz_num >= array_length(dialogue_quiz_array)) and(quiz_num < (array_length(dialogue_quiz_array) + array_length(dialogue_array)) and (keyboard_check_pressed(vk_space) or mouse_check_button_pressed(mb_left))))
 	{
 		
 		quiz_num++

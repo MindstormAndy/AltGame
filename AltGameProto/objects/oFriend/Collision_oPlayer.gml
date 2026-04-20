@@ -12,7 +12,7 @@ if (global.alive)
 	{
 		global.cutscene = true;
 		
-		if (keyboard_check_pressed(vk_space))
+		if (keyboard_check_pressed(vk_space) or mouse_check_button_pressed(mb_left))
         {
             if (i < array_length(dialogue_array))
             {
