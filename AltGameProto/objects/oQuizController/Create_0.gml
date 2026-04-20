@@ -18,7 +18,7 @@ healthbar_y = 8;
 
 greatBubble = "I think that went pretty well!"
 okBubble = "That could have gone better."
-badBubble = "That was pretty awful..."
+badBubble = "That went pretty poorly..."
 garbageBubble = "AAAAAAAAAAAA WHY DID I SAY THAT"
 nothingBubble = "I don't know what to say..."
 

@@ -25,8 +25,8 @@ switch (room)
 {
 	case Room1:
 		dialogue_array = [
-			{ speaker: "Player", text: "Hey Friend. I’m about ready to go-"},
-			{ speaker: "Friend", text: "Oh, hey Player! How are you enjoying the party?"},
+			{ speaker: "Player", text: "Hey Charlie. I’m about ready to go-"},
+			{ speaker: "Friend", text: "Oh, hey Oliver! How are you enjoying the party?"},
 			{ speaker: "Player", text: "It’s alright, but I’d actually like to head out if that’s okay."},
 			{ speaker: "Friend", text: "Oh okay, let me go find my wallet real quick, think I left it in the other room."},
 			{ speaker: "Player", text: "Hey wait up!"}
@@ -51,7 +51,7 @@ switch (room)
 	case Room4:
 		dialogue_array = [
 			{ speaker: "Player", text: "Seriously, are you ready to go yet? I’m at the end of my rope here."},
-			{ speaker: "Friend", text: "Sure thing. I just need to go say thanks to Host for inviting me."}
+			{ speaker: "Friend", text: "Sure thing. I just need to go say thanks to the host for inviting me."}
 		];
 		break;
 }

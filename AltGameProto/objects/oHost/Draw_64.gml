@@ -49,16 +49,18 @@ if (global.hostscreen) {
 		show_debug_message((array_length(dialogue_quiz_array) + array_length(dialogue_array) - 1))
 		draw_sprite_ext(sDialogueTextbox, 0, dialogue_x, dialogue_y, 2, 2, 0, c_white, 1)
 		if (dialogue_array[quiz_num-4].speaker == "Player")
-			draw_sprite_ext(sPlayerProfile, 0, profile_x, profile_y, 4, 4, 0, c_white, 1)
-		else
-			draw_sprite_ext(sHumanHostProfile, 0, profile_x, profile_y, 4, 4, 0, c_white, 1)
+			draw_sprite_ext(sPlayerProfile, 0, profile_x, profile_y, 4, 4, 0, c_white, 1)	
+			else if dialogue_array[quiz_num-4].speaker == "Host"
+				draw_sprite_ext(sHumanHostProfile, 0, profile_x, profile_y, 4, 4, 0, c_white, 1)
+			else if 
+				draw_sprite_ext(sFriendProfile, 0, profile_x, profile_y, 4, 4, 0, c_white, 1)
 		draw_set_halign(fa_center)
 		draw_set_valign(fa_middle)
 		draw_text_ext_transformed(text_x, text_y, dialogue_array[quiz_num-4].text, 20, 450, 2, 2, 0)
 	}
 	else {
 		sprite_index = sHumanHost
-		screen_fading(TitleScreen, 0.025, 0.025)
+		screen_fading(TitleScreen, 0.017, 0.017)
 		instance_destroy(oQuizController)
 	}
 }
