@@ -1,5 +1,5 @@
 // Thought Bubble 
-if (global.thinking)
+if (global.thinking_enemy or global.thinking_trigger)
 {
 	draw_sprite_ext(sThoughtBubble, 0, x, y, .5*bubble_sprite_flip_x, .5*bubble_sprite_flip_y, 0, c_white, 1)
 	draw_set_color(c_black)

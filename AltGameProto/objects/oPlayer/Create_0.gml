@@ -3,7 +3,6 @@ moveDir = 0;
 moveSpd = 2;
 xspd = 0;
 yspd = 0;
-global.thinking = false;
 
 global.alive = true;
 tilemap = layer_tilemap_get_id("Tilemap_Walls")

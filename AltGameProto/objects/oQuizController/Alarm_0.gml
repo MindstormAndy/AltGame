@@ -1,1 +1,1 @@
-global.thinking = false;
+global.thinking_enemy = false;

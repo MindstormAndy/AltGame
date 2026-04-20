@@ -6,6 +6,8 @@ global.num_interacted = 0;
 global.lost = false;
 global.doQuiz = false;
 global.hostscreen = false;
+global.thinking_trigger = false;
+global.thinking_enemy = false;
 gpu_set_texfilter(false);
 
 // Health Bar Variables
@@ -78,5 +80,7 @@ prompt_font_size_gui = prompt_font_size*gui_scale;
 answer_font_size_gui = answer_font_size*gui_scale;
 end_font_size_gui = end_font_size*gui_scale;
 
+
+draw_set_colour(c_white)
 
 

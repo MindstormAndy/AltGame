@@ -15,6 +15,7 @@ if (global.found && !global.shuffle_buttons && global.alive)
 		global.doQuiz = false;
 		global.num_interacted++;
 		UpdateBattery(prompt_values.nothing);
+		global.thinking_enemy = true
 		alarm[0] = 180;
 	}
 	if (point_in_rectangle(mouse_gui_x, mouse_gui_y, button1x, button1y, button1x+button_width, button1y+button_height))
@@ -26,6 +27,7 @@ if (global.found && !global.shuffle_buttons && global.alive)
 			global.doQuiz = false;
 			global.num_interacted++;
 			UpdateBattery(shuffled_array[0].value);
+			global.thinking_enemy = true
 			alarm[0] = 180;
 		}
 	}
@@ -43,6 +45,7 @@ if (global.found && !global.shuffle_buttons && global.alive)
 			global.doQuiz = false;
 			global.num_interacted++;
 			UpdateBattery(shuffled_array[1].value);
+			global.thinking_enemy = true
 			alarm[0] = 180;
 		}
 	}
@@ -60,6 +63,7 @@ if (global.found && !global.shuffle_buttons && global.alive)
 			global.doQuiz = false;
 			global.num_interacted++;
 			UpdateBattery(shuffled_array[2].value);
+			global.thinking_enemy = true
 			alarm[0] = 180;
 		}
 	}
@@ -77,6 +81,7 @@ if (global.found && !global.shuffle_buttons && global.alive)
 			global.doQuiz = false;
 			global.num_interacted++;
 			UpdateBattery(shuffled_array[3].value);
+			global.thinking_enemy = true
 			alarm[0] = 180;
 		}
 	}

@@ -1,1 +1,1 @@
-if (!global.found) global.thinking = false;
+global.thinking_trigger = false;
