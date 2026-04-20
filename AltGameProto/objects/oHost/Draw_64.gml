@@ -45,8 +45,6 @@ if (global.hostscreen) {
 	}
 	else if (quiz_num < (array_length(dialogue_quiz_array) + array_length(dialogue_array))){
 		sprite_index = sHumanHost
-		show_debug_message(quiz_num)
-		show_debug_message((array_length(dialogue_quiz_array) + array_length(dialogue_array) - 1))
 		draw_sprite_ext(sDialogueTextbox, 0, dialogue_x, dialogue_y, 2, 2, 0, c_white, 1)
 		if (dialogue_array[quiz_num-4].speaker == "Player")
 			draw_sprite_ext(sPlayerProfile, 0, profile_x, profile_y, 4, 4, 0, c_white, 1)	

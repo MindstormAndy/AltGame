@@ -22,7 +22,6 @@ if (global.alive)
             }
             else
             {
-                i = 1;
 	
 				// Screen fading from one level to the next
 				if room == Room1
