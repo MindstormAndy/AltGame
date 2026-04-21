@@ -140,7 +140,7 @@ else {
 	image_speed = 0;
 }
 
-if (!global.alive && keyboard_check_pressed(vk_anykey)) {
-	instance_destroy(oQuizController)
+if (!global.alive && (keyboard_check_pressed(vk_anykey) or mouse_check_button_pressed(mb_left))) {
+	global.last_level = true;
 	screen_fading(TitleScreen, 0.1, 0.1)
 }

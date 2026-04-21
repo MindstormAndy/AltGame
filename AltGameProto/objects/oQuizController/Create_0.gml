@@ -67,10 +67,18 @@ enum prompt_values
 	nothing
 }
 
-file_grid = load_csv("TestPrompts.csv")
-for (var i = 0; i < ds_grid_width(file_grid); i++)
-	for (var j = 0; j < ds_grid_height(file_grid); j++)
-		file_grid[# i, j] = string_replace_all(file_grid[# i, j], "*", "'");
+dialogue_array = 
+[
+	["Did you see the game last night?", "Yeah, it was a blast.", "I don't really watch sports.", "There was a game?", "Who watches sports nowadays?"], 
+	["Hey, how are you doing?", "I'm good, thanks.", "Great. Just great.", "Fine.", "My soul is empty."], 
+	["Hey man! Are you enjoying the party?", "For sure!", "It's alright I guess.", "It's kind of lame honestly.", "What party?"], 
+	["Where are you headed?", "I'm heading out, have a good one.", "I'm leaving.", "Bathroom?", "Your mother's house."], 
+	["You should come dance!", "No thanks, I have two left feet.", "No I can't.", "I don't wanna.", "There's enough fools on the dance floor."], 
+	["Have you seen the dog?", "Yeah, he's adorable.", "I've seen him around.", "There's a dog?", "Oh yeah, the fleabitten mutt."], 
+	["Do you want to talk about politics?", "I'm really not comfortable with that.", "Not really.", "I don't know.", "Absolutely!"], 
+	["Do you want to talk about religion?", "I'm really not comfortable with that.", "Not really.", "I don't know.", "Is yours different from mine?"], 
+	["Do you want some cake and ice cream?", "Sure! That sounds amazing.", "Maybe later.", "The cake is a lie.", "Shouldn't you be eating healthy? Try a salad."]
+]
 
 
 answer_array = array_create(4)

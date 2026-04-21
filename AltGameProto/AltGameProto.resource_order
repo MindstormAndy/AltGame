@@ -1,6 +1,5 @@
 {
   "FolderOrderSettings":[
-    {"name":"Sounds","order":15,"path":"folders/Sounds.yy",},
     {"name":"Objects","order":3,"path":"folders/Objects.yy",},
     {"name":"TitleObjetcs","order":15,"path":"folders/Objects/TitleObjetcs.yy",},
     {"name":"Paths Room 2","order":5,"path":"folders/Paths Room 2.yy",},
@@ -9,6 +8,7 @@
     {"name":"Paths Room3","order":6,"path":"folders/Paths Room3.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Scripts","order":13,"path":"folders/Scripts.yy",},
+    {"name":"Sounds","order":15,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":2,"path":"folders/Sprites.yy",},
     {"name":"Tilesets","order":7,"path":"folders/Tilesets.yy",},
   ],

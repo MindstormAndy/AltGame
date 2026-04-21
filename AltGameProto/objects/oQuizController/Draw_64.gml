@@ -47,25 +47,30 @@ if (global.alive && !global.game_end && room != TitleScreen)
 		{
 			
 			
-			prompt = file_grid[# 1, global.enemy_index]
+			prompt = dialogue_array[global.enemy_index, 0]
+			//prompt = file_grid[# 1, global.enemy_index]
 			answer_array[0] = 
 			{
-				text : file_grid[# 2, global.enemy_index],
+				text: dialogue_array[global.enemy_index, 1],
+				//text : file_grid[# 2, global.enemy_index],
 				value : prompt_values.great
 			};
 			answer_array[1] = 
 			{
-				text : file_grid[# 3, global.enemy_index],
+				text: dialogue_array[global.enemy_index, 2],
+				//text : file_grid[# 3, global.enemy_index],
 				value : prompt_values.ok
 			};
 			answer_array[2] = 
 			{
-				text : file_grid[# 4, global.enemy_index],
+				text: dialogue_array[global.enemy_index, 3],
+				//text : file_grid[# 4, global.enemy_index],
 				value : prompt_values.bad
 			};
 			answer_array[3] = 
 			{
-				text : file_grid[# 5, global.enemy_index],
+				text: dialogue_array[global.enemy_index, 4],
+				//text : file_grid[# 5, global.enemy_index],
 				value : prompt_values.garbage
 			};
 			shuffled_array = array_shuffle(answer_array)
