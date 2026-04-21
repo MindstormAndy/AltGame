@@ -45,6 +45,7 @@ dialogue_quiz_array = [
 ]
 
 dialogue_array = [
+	{ speaker: "Player", text: "So you have social anxiety too?"}, // Skips first text because of previous click during conversation. Duplicated it for quick fix.
 	{ speaker: "Player", text: "So you have social anxiety too?"},
 	{ speaker: "Host", text: "For sure. I mean who doesn't have some anxiety when talking to new people, right?"},
 	{ speaker: "Player", text: "But this is your party, I thought for sure that you wouldn't have any trouble talking to the people here."},

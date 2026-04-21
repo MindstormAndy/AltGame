@@ -16,7 +16,6 @@
     {"name":"inst_C1614B3","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_65A39503","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_401EF277","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_1FD90943","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_5B94084F","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_301C376B","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_794D15F5","path":"rooms/Room1/Room1.yy",},
@@ -46,6 +45,7 @@
     {"name":"inst_17BDB044","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1DF5E946","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6A8D8AC","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_1FD90943","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -143,7 +143,7 @@
         {"$GMRInstance":"v4","%Name":"inst_401EF277","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_401EF277","objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":560.0,"y":64.0,},
         {"$GMRInstance":"v4","%Name":"inst_1FD90943","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1FD90943","objectId":{"name":"oBubbleTrigger","path":"objects/oBubbleTrigger/oBubbleTrigger.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oBubbleTrigger","path":"objects/oBubbleTrigger/oBubbleTrigger.yy",},"propertyId":{"name":"text","path":"objects/oBubbleTrigger/oBubbleTrigger.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"What am I doing here...",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":2.5,"x":496.0,"y":16.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.5,"x":544.0,"y":48.0,},
         {"$GMRInstance":"v4","%Name":"inst_5B94084F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B94084F","objectId":{"name":"oBubbleTrigger","path":"objects/oBubbleTrigger/oBubbleTrigger.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oBubbleTrigger","path":"objects/oBubbleTrigger/oBubbleTrigger.yy",},"propertyId":{"name":"text","path":"objects/oBubbleTrigger/oBubbleTrigger.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"There you are!",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":2.0,"x":320.0,"y":560.0,},

@@ -19,6 +19,6 @@ draw_set_valign(fa_middle)
 
 if (room == Tutorial)
 {
-	global.bubbletext = "The letters WASD seem really important"
+	global.bubbletext = "I can use the WASD Keys to move."
 	global.thinking_trigger = true;
 }

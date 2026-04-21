@@ -1,8 +1,4 @@
-if (room == Tutorial) 
-{
-	sprite_index = -1
-	mask_index = sFriend
-}
+
 
 global.game_end = false;
 global.cutscene = false;
@@ -27,19 +23,21 @@ switch (room)
 {
 	case Tutorial:
 		dialogue_array = [
-			{ speaker: "Player", text: "It's been ages since we came to this party. I want to go home. [click to continue]"},
-			{ speaker: "Player", text: "Too bad I wasn't the one who drove here. Guess I'll have to find Charlie."},
+			{ speaker: "Player", text: "Hey Charlie, It feels like ages since we arrived at this party. I'd like to- [click to continue]"},
+			{ speaker: "Friend", text: "Hold that thought, somebody keeps calling my name. I'll be right back."},
+			{ speaker: "Player", text: "go now..."},
+			{ speaker: "Player", text: "Knowing Charlie, they'll get too sidetracked. I better go catch up with them."},
 			{ speaker: "Player", text: "I don't know how much social interaction I can take."},
-			{ speaker: "Player", text: "I really don't want to talk to anyone. I'll do my best to avoid them."},
-			{ speaker: "Player", text: "If anyone talks to me, I'll just try to respond the best I can and hope I don't say something weird."}
+			{ speaker: "Player", text: "I really don't want to talk to anyone else. I'll just do my best to avoid them."},
+			{ speaker: "Player", text: "If anyone talks to me, I'll just try to respond the best I can. Hopefully I don't say something too embarassing."}
 		];
 		break;
 	case Room1:
 		dialogue_array = [
-			{ speaker: "Player", text: "Hey Charlie. I'm about ready to go-"},
+			{ speaker: "Player", text: "Hey, I'm about ready to go-"},
 			{ speaker: "Friend", text: "Oh, hey Oliver! How are you enjoying the party?"},
 			{ speaker: "Player", text: "It's alright, but I'd actually like to head out if that's okay."},
-			{ speaker: "Friend", text: "Oh okay, let me go find my wallet real quick, think I left it in the other room."},
+			{ speaker: "Friend", text: "Oh okay, let me go find my wallet real quick, I think I left it in the other room."},
 			{ speaker: "Player", text: "Hey wait up!"}
 		];
 		break;

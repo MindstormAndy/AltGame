@@ -20,6 +20,12 @@ if (global.alive)
 				profile_sprite = dialogue_array[i].speaker = "Player" ? sPlayerProfile : sFriendProfile
                 dialogue_text = dialogue_array[i].text;
                 i++;
+					
+				if (room == Tutorial) and i = 3
+				{
+					sprite_index = -1
+					mask_index = sFriend
+				}
             }
             else
             {
