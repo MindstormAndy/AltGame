@@ -16,3 +16,9 @@ bubble_sprite_flip_y = -1
 
 draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
+
+if (room == Tutorial)
+{
+	global.bubbletext = "The letters WASD seem really important"
+	global.thinking_trigger = true;
+}

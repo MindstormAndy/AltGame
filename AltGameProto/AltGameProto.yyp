@@ -24,7 +24,6 @@
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"Room1Dialogue.csv","CopyToMask":-1,"filePath":"datafiles","name":"Room1Dialogue.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"sHealthRed.aseprite","CopyToMask":-1,"filePath":"datafiles","name":"sHealthRed.aseprite","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"TestPrompts.csv","CopyToMask":-1,"filePath":"datafiles","name":"TestPrompts.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
@@ -36,6 +35,7 @@
   "name":"AltGameProto",
   "resources":[
     {"id":{"name":"oBackButton","path":"objects/oBackButton/oBackButton.yy",},},
+    {"id":{"name":"Object18","path":"objects/Object18/Object18.yy",},},
     {"id":{"name":"oBubbleTrigger","path":"objects/oBubbleTrigger/oBubbleTrigger.yy",},},
     {"id":{"name":"oCreditsBox","path":"objects/oCreditsBox/oCreditsBox.yy",},},
     {"id":{"name":"oCreditsButton","path":"objects/oCreditsButton/oCreditsButton.yy",},},
@@ -185,6 +185,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
+    {"roomId":{"name":"Tutorial","path":"rooms/Tutorial/Tutorial.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
@@ -192,7 +193,6 @@
     {"roomId":{"name":"Final","path":"rooms/Final/Final.yy",},},
     {"roomId":{"name":"Final","path":"rooms/Final/Final.yy",},},
     {"roomId":{"name":"CreditsScreen","path":"rooms/CreditsScreen/CreditsScreen.yy",},},
-    {"roomId":{"name":"Tutorial","path":"rooms/Tutorial/Tutorial.yy",},},
     {"roomId":{"name":"Deleted","path":"rooms/Deleted/Deleted.yy",},},
   ],
   "templateType":"game",

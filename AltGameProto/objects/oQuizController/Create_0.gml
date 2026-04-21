@@ -83,4 +83,5 @@ end_font_size_gui = end_font_size*gui_scale;
 
 draw_set_colour(c_white)
 
+depth = 1
 

@@ -24,7 +24,11 @@ if (global.alive)
             {
 	
 				// Screen fading from one level to the next
-				if room == Room1
+				if room == Tutorial
+			    {	
+					screen_fading(Room1, 0.025, 0.025);
+				}
+				else if room == Room1
 			    {	
 					screen_fading(Room2, 0.025, 0.025);
 				}

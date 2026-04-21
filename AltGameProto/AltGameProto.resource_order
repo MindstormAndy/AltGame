@@ -12,6 +12,7 @@
     {"name":"Tilesets","order":7,"path":"folders/Tilesets.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Object18","order":11,"path":"objects/Object18/Object18.yy",},
     {"name":"oBubbleTrigger","order":5,"path":"objects/oBubbleTrigger/oBubbleTrigger.yy",},
     {"name":"oCreditsBox","order":1,"path":"objects/oCreditsBox/oCreditsBox.yy",},
     {"name":"oCreditsButton","order":2,"path":"objects/oCreditsButton/oCreditsButton.yy",},
