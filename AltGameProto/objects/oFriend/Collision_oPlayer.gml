@@ -14,6 +14,7 @@ if (global.alive)
 		
 		if (keyboard_check_pressed(vk_space) or mouse_check_button_pressed(mb_left))
         {
+			audio_play_sound_ext({sound: ClickSound})
             if (i < array_length(dialogue_array))
             {
 				profile_sprite = dialogue_array[i].speaker = "Player" ? sPlayerProfile : sFriendProfile

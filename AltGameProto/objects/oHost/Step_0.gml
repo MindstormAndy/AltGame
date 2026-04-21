@@ -3,6 +3,7 @@ if instance_find(oPlayer, 0).y < 220
 {
 	global.hostscreen = true;	
 	
+	
 }
 if (global.hostscreen)
 {
@@ -19,12 +20,20 @@ if (global.hostscreen)
 	
 	if ((button1clicked or button2clicked or button3clicked or button4clicked) and quiz_num < array_length(dialogue_quiz_array))
 	{
+		audio_play_sound_ext({sound: ClickSound})
 		quiz_num++
 	}
 	if ((quiz_num >= array_length(dialogue_quiz_array)) and(quiz_num < (array_length(dialogue_quiz_array) + array_length(dialogue_array)) and (keyboard_check_pressed(vk_space) or mouse_check_button_pressed(mb_left))))
 	{
-		
+		audio_play_sound_ext({sound: ClickSound})
 		quiz_num++
+	}
+	
+	if (quiz_num >= (array_length(dialogue_quiz_array) + array_length(dialogue_array)))
+	{
+		show_debug_message("Quiz complete! quiz_num = " + string(quiz_num))
+		global.last_level = true;
+		screen_fading(TitleScreen, 0.017, 0.017)
 	}
 	
 	

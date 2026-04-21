@@ -50,7 +50,7 @@ if (global.hostscreen) {
 			draw_sprite_ext(sPlayerProfile, 0, profile_x, profile_y, 4, 4, 0, c_white, 1)	
 			else if dialogue_array[quiz_num-4].speaker == "Host"
 				draw_sprite_ext(sHumanHostProfile, 0, profile_x, profile_y, 4, 4, 0, c_white, 1)
-			else if 
+			else if dialogue_array[quiz_num-4].speaker == "Friend"
 				draw_sprite_ext(sFriendProfile, 0, profile_x, profile_y, 4, 4, 0, c_white, 1)
 		draw_set_halign(fa_center)
 		draw_set_valign(fa_middle)
@@ -58,7 +58,5 @@ if (global.hostscreen) {
 	}
 	else {
 		sprite_index = sHumanHost
-		screen_fading(TitleScreen, 0.017, 0.017)
-		instance_destroy(oQuizController)
 	}
 }

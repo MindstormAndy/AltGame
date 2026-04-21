@@ -50,6 +50,7 @@ if (!global.found && !foundplayer && !global.cutscene && global.alive)
 
 	// If this enemy can see the player, start a timer and increment it every tick until it reaches a set limit.
 	// The question mark sprite is set in the Draw tab.
+	if (canseeplayer and tempdelay == 0) audio_play_sound_ext({sound: SeenSound})
 	if (canseeplayer)
 	{
 		tempdelay++;
@@ -64,6 +65,8 @@ if (!global.found && !foundplayer && !global.cutscene && global.alive)
 		sprite_index = spriteIdle
 		foundplayer = true;
 		exclamation = true;
+		
+		audio_play_sound_ext({sound: EncounterSound})
 		
 		global.shuffle_buttons = true;
 		

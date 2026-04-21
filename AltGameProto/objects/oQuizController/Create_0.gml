@@ -8,6 +8,7 @@ global.doQuiz = false;
 global.hostscreen = false;
 global.thinking_trigger = false;
 global.thinking_enemy = false;
+global.last_level = false;
 gpu_set_texfilter(false);
 
 // Health Bar Variables

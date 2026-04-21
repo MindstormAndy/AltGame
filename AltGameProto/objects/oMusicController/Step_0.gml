@@ -1,0 +1,1 @@
+if (room == Final) audio_sound_gain(MainMusic, .5)

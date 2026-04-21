@@ -6,7 +6,8 @@ if(state == fade_in)
 		{
 			image_alpha = 1;
 			state = fade_out;
-			room_goto(transition_room);
+			if (global.last_level) game_restart();
+			else room_goto(transition_room);
 		}
 }	
 else if(state == fade_out)

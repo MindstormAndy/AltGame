@@ -1,5 +1,6 @@
 // Update the social battery differently depending on the given prompt value.
 function UpdateBattery(prompt_value){
+	audio_play_sound_ext({sound: ClickSound})
 	switch prompt_value
 	{
 		case prompt_values.great:
